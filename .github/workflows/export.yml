@@ -29,17 +29,11 @@ jobs:
         echo "📊 Updating dashboard data..."
         python ibkr-auto-exporter/src/generate_dashboard_data.py
         
-        # Copy dashboard files to root for gh-pages deployment
-        cp docs/index.html .
-        cp docs/dashboard-data.json .
-        cp docs/_config.yml .
-        
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
+        publish_dir: ./docs
         keep_files: false
         force_orphan: true
-        exclude_assets: '.github,README.md,exports,.git,.gitignore'

@@ -37,3 +37,9 @@ jobs:
         publish_dir: ./docs
         keep_files: false
         force_orphan: true
+        
+    - name: Trigger Pages deployment
+      if: github.ref == 'refs/heads/main'
+      run: |
+        sleep 5
+        gh workflow run pages.yml || true

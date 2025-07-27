@@ -23,3 +23,16 @@ jobs:
         ibkr-query-id: ${{ secrets.IBKR_QUERY_ID }}
         cost-basis-min: '0'
         cost-basis-max: '50'
+    
+    - name: Update dashboard
+      run: |
+        echo "📊 Updating dashboard data..."
+        python ibkr-auto-exporter/src/generate_dashboard_data.py
+        
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+        keep_files: false

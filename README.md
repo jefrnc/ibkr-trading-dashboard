@@ -15,10 +15,59 @@ This is a live example of:
 <!-- STATS_START -->
 ### 📊 Live Trading Statistics
 
-*Statistics will appear here after first export*
+| Period | Trades | P&L | Win Rate |
+|--------|--------|-----|----------|
+| **Week 30 (current)** | 116 | **-$136.39** | 29.3% |
+| Week 29 | 0 | $0.00 | 0.0% |
+| **July (current)** | 315 | **-$227.37** | 35.6% |
+| June | 52 | **-$11.94** | 17.9% |
+
+#### 📈 Yearly Projection
+
+| Metric | Actual YTD | Projected EOY |
+|--------|------------|---------------|
+| **Trades** | 390 | 682 |
+| **P&L** | **-$203.00** | **-$355.25** |
+
+*Based on current performance with 156 days remaining*
+
+*Last updated: 2025-07-27 19:34 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
+## 📅 2025 Trading Calendar
+
+![Trading Calendar](.github/assets/calendar-2025.svg)
+
+### Legend
+🟩 Profit Day | 🟨 Break Even | 🟥 Loss Day | ⬜ No Trades
+
+### 📊 2025 Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Trading Days** | 37 |
+| **Total Trades** | 390 |
+| **Total P&L** | $-203.00 |
+| **Win Rate** | 32.4% |
+| **Profit Days** | 12 (32.4%) |
+| **Loss Days** | 20 (54.1%) |
+| **Best Day** | $16.52 (2025-02-05) |
+| **Worst Day** | $-50.69 (2025-07-24) |
+| **Daily Average** | $-5.49 |
+
+### 📈 Monthly Breakdown
+
+| Month | Trades | P&L | Win Rate |
+|-------|--------|-----|----------|
+| January | 4 | **+$11.26** | 66.7% |
+| February | 10 | **+$16.08** | 33.3% |
+| March | 1 | **-$0.52** | 0.0% |
+| April | 2 | **-$3.19** | 0.0% |
+| May | 6 | **+$12.68** | 100.0% |
+| June | 52 | **-$11.94** | 60.0% |
+| July | 315 | **-$227.37** | 11.8% |
+
 <!-- CALENDAR_END -->
 
 ## 🚀 Features Demonstrated

@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-05-20",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7690026999",
+      "reportDate": "20250520",
+      "tradeDate": "20250520",
+      "tradeTime": "",
+      "settleDateTarget": "20250521",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKR",
+      "quantity": -0.2247,
+      "tradePrice": 16.65,
+      "tradeMoney": -3.741255,
+      "proceeds": 3.741255,
+      "taxes": 0.0,
+      "ibCommission": -4.7636e-05,
+      "ibCommissionCurrency": "USD",
+      "netCash": 3.741207364,
+      "closePrice": 16.38,
+      "openCloseIndicator": "C",
+      "notes": "FP;P",
+      "cost": -1.599864,
+      "fifoPnlRealized": 2.141343,
+      "mtmPnl": 0.0607,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "SUPV",
+      "description": "GRUPO SUPERVIELLE SA-SP ADR",
+      "conid": "233587209",
+      "securityID": "US40054A1088",
+      "securityIDType": "ISIN",
+      "cusip": "40054A108",
+      "isin": "US40054A1088",
+      "listingExchange": "NYSE",
+      "underlyingConid": "",
+      "underlyingSymbol": "SUPV",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 2.141343,
+      "commission": 4.7636e-05,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 2.14,
+    "totalCommission": 0.0,
+    "netPnL": 2.14,
+    "winRate": 1.0,
+    "winners": 1,
+    "losers": 0,
+    "symbols": [
+      "SUPV"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

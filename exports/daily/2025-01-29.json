@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-01-29",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7197755018",
+      "reportDate": "20250129",
+      "tradeDate": "20250129",
+      "tradeTime": "",
+      "settleDateTarget": "20250130",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKR",
+      "quantity": -0.0192,
+      "tradePrice": 106.0,
+      "tradeMoney": -2.0352,
+      "proceeds": 2.0352,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 2.0352,
+      "closePrice": 108.58,
+      "openCloseIndicator": "C",
+      "notes": "FP;P",
+      "cost": -1.7424,
+      "fifoPnlRealized": 0.2928,
+      "mtmPnl": -0.0495,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "SBUX",
+      "description": "STARBUCKS CORP",
+      "conid": "274105",
+      "securityID": "US8552441094",
+      "securityIDType": "ISIN",
+      "cusip": "855244109",
+      "isin": "US8552441094",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "SBUX",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 0.2928,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 0.29,
+    "totalCommission": 0.0,
+    "netPnL": 0.29,
+    "winRate": 1.0,
+    "winners": 1,
+    "losers": 0,
+    "symbols": [
+      "SBUX"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

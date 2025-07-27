@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-07-17",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7927341161",
+      "reportDate": "20250717",
+      "tradeDate": "20250717",
+      "tradeTime": "",
+      "settleDateTarget": "20250718",
+      "transactionType": "ExchTrade",
+      "exchange": "ARCA",
+      "quantity": -21.0,
+      "tradePrice": 1.33,
+      "tradeMoney": -27.93,
+      "proceeds": 27.93,
+      "taxes": 0.0,
+      "ibCommission": -0.346248,
+      "ibCommissionCurrency": "USD",
+      "netCash": 27.583752,
+      "closePrice": 1.47,
+      "openCloseIndicator": "C",
+      "notes": "",
+      "cost": -32.239767,
+      "fifoPnlRealized": -4.656015,
+      "mtmPnl": -2.94,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "AREC",
+      "description": "AMERICAN RESOURCES CORP",
+      "conid": "277296974",
+      "securityID": "US02927U2087",
+      "securityIDType": "ISIN",
+      "cusip": "02927U208",
+      "isin": "US02927U2087",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "AREC",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": -4.656015,
+      "commission": 0.346248,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": -4.66,
+    "totalCommission": 0.35,
+    "netPnL": -5.0,
+    "winRate": 0.0,
+    "winners": 0,
+    "losers": 1,
+    "symbols": [
+      "AREC"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

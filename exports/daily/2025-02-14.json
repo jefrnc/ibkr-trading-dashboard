@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-02-14",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7274092940",
+      "reportDate": "20250214",
+      "tradeDate": "20250214",
+      "tradeTime": "",
+      "settleDateTarget": "20250218",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKR",
+      "quantity": -0.0239,
+      "tradePrice": 8.03,
+      "tradeMoney": -0.191917,
+      "proceeds": 0.191917,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 0.191917,
+      "closePrice": 8.04,
+      "openCloseIndicator": "C",
+      "notes": "FP;P",
+      "cost": -0.189766,
+      "fifoPnlRealized": 0.002151,
+      "mtmPnl": -0.0002,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "PAGS",
+      "description": "PAGSEGURO DIGITAL LTD-CL A",
+      "conid": "303325834",
+      "securityID": "KYG687071012",
+      "securityIDType": "ISIN",
+      "cusip": "",
+      "isin": "KYG687071012",
+      "listingExchange": "NYSE",
+      "underlyingConid": "",
+      "underlyingSymbol": "PAGS",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 0.002151,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 0.0,
+    "totalCommission": 0.0,
+    "netPnL": 0.0,
+    "winRate": 1.0,
+    "winners": 1,
+    "losers": 0,
+    "symbols": [
+      "PAGS"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

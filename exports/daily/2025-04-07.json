@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-04-07",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7499301881",
+      "reportDate": "20250407",
+      "tradeDate": "20250407",
+      "tradeTime": "",
+      "settleDateTarget": "20250408",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKR",
+      "quantity": 0.2502,
+      "tradePrice": 79.91,
+      "tradeMoney": 19.993482,
+      "proceeds": -19.993482,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": -19.993482,
+      "closePrice": 81.18,
+      "openCloseIndicator": "O",
+      "notes": "FP;P",
+      "cost": 19.993482,
+      "fifoPnlRealized": 0.0,
+      "mtmPnl": 0.3178,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "MRK",
+      "description": "MERCK & CO INC",
+      "conid": "70101545",
+      "securityID": "US58933Y1055",
+      "securityIDType": "ISIN",
+      "cusip": "58933Y105",
+      "isin": "US58933Y1055",
+      "listingExchange": "NYSE",
+      "underlyingConid": "",
+      "underlyingSymbol": "MRK",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 0.0,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 0.0,
+    "totalCommission": 0.0,
+    "netPnL": 0.0,
+    "winRate": 0,
+    "winners": 0,
+    "losers": 0,
+    "symbols": [
+      "MRK"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

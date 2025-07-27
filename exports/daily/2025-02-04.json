@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-02-04",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7225668710",
+      "reportDate": "20250204",
+      "tradeDate": "20250204",
+      "tradeTime": "",
+      "settleDateTarget": "20250205",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKR",
+      "quantity": -0.15,
+      "tradePrice": 79.79,
+      "tradeMoney": -11.9685,
+      "proceeds": 11.9685,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 11.9685,
+      "closePrice": 77.725,
+      "openCloseIndicator": "C",
+      "notes": "FP;P",
+      "cost": -13.4535,
+      "fifoPnlRealized": -1.485,
+      "mtmPnl": 0.3098,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "PYPL",
+      "description": "PAYPAL HOLDINGS INC",
+      "conid": "199169591",
+      "securityID": "US70450Y1038",
+      "securityIDType": "ISIN",
+      "cusip": "70450Y103",
+      "isin": "US70450Y1038",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "PYPL",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": -1.485,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": -1.49,
+    "totalCommission": 0.0,
+    "netPnL": -1.49,
+    "winRate": 0.0,
+    "winners": 0,
+    "losers": 1,
+    "symbols": [
+      "PYPL"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

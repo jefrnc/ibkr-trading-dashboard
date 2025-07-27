@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-01-08",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7119853327",
+      "reportDate": "20250108",
+      "tradeDate": "20250108",
+      "tradeTime": "",
+      "settleDateTarget": "20250109",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKR",
+      "quantity": -0.5608,
+      "tradePrice": 79.27,
+      "tradeMoney": -44.454616,
+      "proceeds": 44.454616,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 44.454616,
+      "closePrice": 79.9,
+      "openCloseIndicator": "C",
+      "notes": "FP;P",
+      "cost": -33.485088,
+      "fifoPnlRealized": 10.969528,
+      "mtmPnl": -0.3533,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "ZM",
+      "description": "ZOOM COMMUNICATIONS INC",
+      "conid": "361181057",
+      "securityID": "US98980L1017",
+      "securityIDType": "ISIN",
+      "cusip": "98980L101",
+      "isin": "US98980L1017",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "ZM",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 10.969528,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 10.97,
+    "totalCommission": 0.0,
+    "netPnL": 10.97,
+    "winRate": 1.0,
+    "winners": 1,
+    "losers": 0,
+    "symbols": [
+      "ZM"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

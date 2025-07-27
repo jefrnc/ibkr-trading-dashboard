@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-06-10",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7774616669",
+      "reportDate": "20250610",
+      "tradeDate": "20250610",
+      "tradeTime": "",
+      "settleDateTarget": "20250611",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKR",
+      "quantity": -0.2842,
+      "tradePrice": 12.18,
+      "tradeMoney": -3.461556,
+      "proceeds": 3.461556,
+      "taxes": 0.0,
+      "ibCommission": -0.03467581,
+      "ibCommissionCurrency": "USD",
+      "netCash": 3.42688019,
+      "closePrice": 12.32,
+      "openCloseIndicator": "C",
+      "notes": "FP",
+      "cost": -2.296336,
+      "fifoPnlRealized": 1.130545,
+      "mtmPnl": -0.0398,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "LOMA",
+      "description": "LOMA NEGRA CIA IND-SPON ADR",
+      "conid": "294363537",
+      "securityID": "US54150E1047",
+      "securityIDType": "ISIN",
+      "cusip": "54150E104",
+      "isin": "US54150E1047",
+      "listingExchange": "NYSE",
+      "underlyingConid": "",
+      "underlyingSymbol": "LOMA",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 1.130545,
+      "commission": 0.03467581,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 1.13,
+    "totalCommission": 0.03,
+    "netPnL": 1.1,
+    "winRate": 1.0,
+    "winners": 1,
+    "losers": 0,
+    "symbols": [
+      "LOMA"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

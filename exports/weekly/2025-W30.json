@@ -1,0 +1,609 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "year": 2025,
+  "weekNumber": 30,
+  "weekStart": "2025-07-21",
+  "weekEnd": "2025-07-27",
+  "statistics": {
+    "totalTrades": 116,
+    "totalPnL": -99.55,
+    "totalCommission": 36.84,
+    "netPnL": -136.39,
+    "winRate": 0.2931,
+    "winners": 17,
+    "losers": 41,
+    "avgDailyPnL": -19.91,
+    "bestDay": {
+      "date": "2025-07-21",
+      "pnl": 4.16
+    },
+    "worstDay": {
+      "date": "2025-07-24",
+      "pnl": -50.69
+    },
+    "consistency": 0.2,
+    "tradingDays": 5
+  },
+  "patterns": {
+    "byHour": {},
+    "bySymbol": {
+      "DPRO": {
+        "count": 2,
+        "pnl": 5.11845,
+        "volume": 63.05,
+        "commission": 0.6315500000000001
+      },
+      "OPEN": {
+        "count": 4,
+        "pnl": 0.5057800000000006,
+        "volume": 132.26,
+        "commission": 1.35422
+      },
+      "RXRX": {
+        "count": 2,
+        "pnl": 1.224175,
+        "volume": 63.474999999999994,
+        "commission": 0.650825
+      },
+      "SES": {
+        "count": 2,
+        "pnl": -3.318375,
+        "volume": 61.3,
+        "commission": 0.618375
+      },
+      "SLDP": {
+        "count": 6,
+        "pnl": -11.682125,
+        "volume": 173.761,
+        "commission": 1.7631249999999998
+      },
+      "TDTH": {
+        "count": 4,
+        "pnl": 1.09795,
+        "volume": 130.27,
+        "commission": 1.3520500000000002
+      },
+      "UAMY": {
+        "count": 2,
+        "pnl": -3.38052,
+        "volume": 61.879999999999995,
+        "commission": 0.62052
+      },
+      "UAVS": {
+        "count": 6,
+        "pnl": 5.75631,
+        "volume": 196.5,
+        "commission": 2.04369
+      },
+      "WWR": {
+        "count": 2,
+        "pnl": -1.7536,
+        "volume": 64.272,
+        "commission": 0.7456
+      },
+      "BOF": {
+        "count": 2,
+        "pnl": -6.18248,
+        "volume": 55.68,
+        "commission": 0.58248
+      },
+      "DVLT": {
+        "count": 2,
+        "pnl": -4.520588,
+        "volume": 61.068,
+        "commission": 0.716588
+      },
+      "GVH": {
+        "count": 2,
+        "pnl": 4.88547,
+        "volume": 60.39,
+        "commission": 0.60453
+      },
+      "HOTH": {
+        "count": 2,
+        "pnl": -2.925945,
+        "volume": 62.099999999999994,
+        "commission": 0.625945
+      },
+      "IOVA": {
+        "count": 6,
+        "pnl": 0.9960399999999998,
+        "volume": 187.72,
+        "commission": 1.9039599999999999
+      },
+      "IPDN": {
+        "count": 2,
+        "pnl": -7.07128,
+        "volume": 56.56,
+        "commission": 0.59128
+      },
+      "LMFA": {
+        "count": 2,
+        "pnl": 4.103295,
+        "volume": 65.52,
+        "commission": 0.656705
+      },
+      "MEIP": {
+        "count": 2,
+        "pnl": -1.090312,
+        "volume": 55.465199999999996,
+        "commission": 0.555512
+      },
+      "OP": {
+        "count": 2,
+        "pnl": -5.269872,
+        "volume": 60.0025,
+        "commission": 0.7073725
+      },
+      "RDHL": {
+        "count": 2,
+        "pnl": -4.222855,
+        "volume": 60.606,
+        "commission": 0.6088549999999999
+      },
+      "STRO": {
+        "count": 2,
+        "pnl": -0.257523,
+        "volume": 65.1624,
+        "commission": 0.75152296
+      },
+      "BYND": {
+        "count": 2,
+        "pnl": -4.83759,
+        "volume": 54.63,
+        "commission": 0.54759
+      },
+      "CLSD": {
+        "count": 2,
+        "pnl": -5.9322,
+        "volume": 54.31,
+        "commission": 0.6222000000000001
+      },
+      "DNUT": {
+        "count": 3,
+        "pnl": -5.36529,
+        "volume": 56.4,
+        "commission": 0.5652900000000001
+      },
+      "FFAI": {
+        "count": 4,
+        "pnl": -8.43045,
+        "volume": 118.62,
+        "commission": 1.2504499999999998
+      },
+      "GPRO": {
+        "count": 2,
+        "pnl": 5.49584,
+        "volume": 69.28,
+        "commission": 0.7441599999999999
+      },
+      "IXHL": {
+        "count": 4,
+        "pnl": -2.6891619999999996,
+        "volume": 128.86115,
+        "commission": 1.3705115
+      },
+      "LTRN": {
+        "count": 2,
+        "pnl": -6.62589,
+        "volume": 54.66,
+        "commission": 0.56589
+      },
+      "OFAL": {
+        "count": 2,
+        "pnl": -6.43752,
+        "volume": 57.9,
+        "commission": 0.6175200000000001
+      },
+      "PLRZ": {
+        "count": 2,
+        "pnl": 5.54693,
+        "volume": 68.85,
+        "commission": 0.74307
+      },
+      "RSLS": {
+        "count": 2,
+        "pnl": -2.310795,
+        "volume": 60.786,
+        "commission": 0.636795
+      },
+      "STLA": {
+        "count": 2,
+        "pnl": 0.628305,
+        "volume": 60.705,
+        "commission": 0.616695
+      },
+      "AEO": {
+        "count": 2,
+        "pnl": -3.00572,
+        "volume": 48.33,
+        "commission": 0.49571999999999994
+      },
+      "CIO": {
+        "count": 2,
+        "pnl": -0.03014,
+        "volume": 54.528,
+        "commission": 0.5581400000000001
+      },
+      "MCRP": {
+        "count": 2,
+        "pnl": -6.105165,
+        "volume": 56.98,
+        "commission": 0.605165
+      },
+      "NRGV": {
+        "count": 4,
+        "pnl": -5.25011,
+        "volume": 128.2,
+        "commission": 1.43011
+      },
+      "PMN": {
+        "count": 2,
+        "pnl": 0.684635,
+        "volume": 67.83,
+        "commission": 0.785365
+      },
+      "QSI": {
+        "count": 2,
+        "pnl": -1.74952,
+        "volume": 62.608000000000004,
+        "commission": 0.67752
+      },
+      "TGL": {
+        "count": 3,
+        "pnl": -5.6955599999999995,
+        "volume": 59.54,
+        "commission": 0.75556
+      },
+      "TRIB": {
+        "count": 2,
+        "pnl": -7.174385,
+        "volume": 62.197,
+        "commission": 0.6307849999999999
+      },
+      "VLN": {
+        "count": 2,
+        "pnl": -4.01265,
+        "volume": 63.05,
+        "commission": 0.66265
+      },
+      "WOLF": {
+        "count": 2,
+        "pnl": -5.81376,
+        "volume": 59.519999999999996,
+        "commission": 0.6937599999999999
+      },
+      "YYAI": {
+        "count": 2,
+        "pnl": 5.48868,
+        "volume": 67.68,
+        "commission": 0.75132
+      },
+      "ZOOZ": {
+        "count": 4,
+        "pnl": -2.7993449999999998,
+        "volume": 113.21,
+        "commission": 1.229345
+      },
+      "LIMN": {
+        "count": 2,
+        "pnl": -0.786045,
+        "volume": 53.64,
+        "commission": 0.546045
+      },
+      "SDST": {
+        "count": 2,
+        "pnl": -4.35628,
+        "volume": 55.214999999999996,
+        "commission": 0.65128
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 116,
+        "pnl": -99.551192,
+        "volume": 3474.5722499999983
+      }
+    },
+    "byDayOfWeek": {
+      "Monday": {
+        "count": 18,
+        "pnl": 10.176935000000002
+      },
+      "Tuesday": {
+        "count": 26,
+        "pnl": -31.821835
+      },
+      "Wednesday": {
+        "count": 27,
+        "pnl": -19.207562
+      },
+      "Thursday": {
+        "count": 32,
+        "pnl": -40.731075
+      },
+      "Friday": {
+        "count": 13,
+        "pnl": -17.967655
+      }
+    },
+    "largestWin": {
+      "pnl": 5.90317,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "7941805102",
+        "reportDate": "20250721",
+        "tradeDate": "20250721",
+        "tradeTime": "",
+        "settleDateTarget": "20250722",
+        "transactionType": "ExchTrade",
+        "exchange": "NASDAQ",
+        "quantity": -13.0,
+        "tradePrice": 3.04,
+        "tradeMoney": -39.52,
+        "proceeds": 39.52,
+        "taxes": 0.0,
+        "ibCommission": -0.397644,
+        "ibCommissionCurrency": "USD",
+        "netCash": 39.122356,
+        "closePrice": 3.21,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": -33.219186,
+        "fifoPnlRealized": 5.90317,
+        "mtmPnl": -2.21,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "OPEN",
+        "description": "OPENDOOR TECHNOLOGIES INC",
+        "conid": "460320153",
+        "securityID": "US6837121036",
+        "securityIDType": "ISIN",
+        "cusip": "683712103",
+        "isin": "US6837121036",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "OPEN",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 5.90317,
+        "commission": 0.397644,
+        "currency": "USD"
+      }
+    },
+    "largestLoss": {
+      "pnl": -7.174385,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "7962024180",
+        "reportDate": "20250724",
+        "tradeDate": "20250724",
+        "tradeTime": "",
+        "settleDateTarget": "20250725",
+        "transactionType": "ExchTrade",
+        "exchange": "ISLAND",
+        "quantity": -41.0,
+        "tradePrice": 0.6787,
+        "tradeMoney": -27.8267,
+        "proceeds": 27.8267,
+        "taxes": 0.0,
+        "ibCommission": -0.285975,
+        "ibCommissionCurrency": "USD",
+        "netCash": 27.540725,
+        "closePrice": 0.699,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": -34.71511,
+        "fifoPnlRealized": -7.174385,
+        "mtmPnl": -0.8323,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "TRIB",
+        "description": "TRINITY BIOTECH PLC-SPON ADR",
+        "conid": "686134858",
+        "securityID": "US8964385046",
+        "securityIDType": "ISIN",
+        "cusip": "896438504",
+        "isin": "US8964385046",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "TRIB",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": -7.174385,
+        "commission": 0.285975,
+        "currency": "USD"
+      }
+    },
+    "mostTraded": {
+      "symbol": "SLDP",
+      "count": 6
+    },
+    "tradingDays": [
+      "2025-07-21",
+      "2025-07-22",
+      "2025-07-23",
+      "2025-07-24",
+      "2025-07-25"
+    ],
+    "totalVolume": 3474.5722499999983,
+    "avgTradeSize": 29.953209051724123
+  },
+  "dailySummaries": [
+    {
+      "totalTrades": 18,
+      "totalPnL": 10.18,
+      "totalCommission": 6.02,
+      "netPnL": 4.16,
+      "winRate": 0.5556,
+      "winners": 5,
+      "losers": 4,
+      "symbols": [
+        "DPRO",
+        "OPEN",
+        "RXRX",
+        "SES",
+        "SLDP",
+        "TDTH",
+        "UAMY",
+        "UAVS",
+        "WWR"
+      ],
+      "assetCategories": {
+        "STK": 18
+      },
+      "date": "2025-07-21",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 26,
+      "totalPnL": -31.82,
+      "totalCommission": 8.33,
+      "netPnL": -40.15,
+      "winRate": 0.2308,
+      "winners": 3,
+      "losers": 10,
+      "symbols": [
+        "BOF",
+        "DVLT",
+        "GVH",
+        "HOTH",
+        "IOVA",
+        "IPDN",
+        "LMFA",
+        "MEIP",
+        "OP",
+        "OPEN",
+        "RDHL",
+        "STRO",
+        "TDTH"
+      ],
+      "assetCategories": {
+        "STK": 26
+      },
+      "date": "2025-07-22",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 27,
+      "totalPnL": -19.21,
+      "totalCommission": 8.23,
+      "netPnL": -27.44,
+      "winRate": 0.3846,
+      "winners": 5,
+      "losers": 8,
+      "symbols": [
+        "BYND",
+        "CLSD",
+        "DNUT",
+        "FFAI",
+        "GPRO",
+        "IOVA",
+        "IXHL",
+        "LTRN",
+        "OFAL",
+        "PLRZ",
+        "RSLS",
+        "SLDP",
+        "STLA"
+      ],
+      "assetCategories": {
+        "STK": 27
+      },
+      "date": "2025-07-23",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 32,
+      "totalPnL": -40.73,
+      "totalCommission": 9.96,
+      "netPnL": -50.69,
+      "winRate": 0.1875,
+      "winners": 3,
+      "losers": 13,
+      "symbols": [
+        "AEO",
+        "CIO",
+        "IOVA",
+        "IXHL",
+        "MCRP",
+        "NRGV",
+        "PMN",
+        "QSI",
+        "TGL",
+        "TRIB",
+        "UAVS",
+        "VLN",
+        "WOLF",
+        "YYAI",
+        "ZOOZ"
+      ],
+      "assetCategories": {
+        "STK": 32
+      },
+      "date": "2025-07-24",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 13,
+      "totalPnL": -17.97,
+      "totalCommission": 4.3,
+      "netPnL": -22.27,
+      "winRate": 0.1429,
+      "winners": 1,
+      "losers": 6,
+      "symbols": [
+        "FFAI",
+        "LIMN",
+        "NRGV",
+        "PMN",
+        "SDST",
+        "SLDP",
+        "ZOOZ"
+      ],
+      "assetCategories": {
+        "STK": 13
+      },
+      "date": "2025-07-25",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-07-27",
+      "account": "U*****98"
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2025-07-27T19:34:46.802483",
+    "version": "1.0"
+  }
+}

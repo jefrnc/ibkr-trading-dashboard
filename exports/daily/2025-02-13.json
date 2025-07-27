@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-27 19:34:46",
+  "account": "U*****98",
+  "date": "2025-02-13",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7267260962",
+      "reportDate": "20250213",
+      "tradeDate": "20250213",
+      "tradeTime": "",
+      "settleDateTarget": "20250214",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKR",
+      "quantity": 0.25,
+      "tradePrice": 94.8,
+      "tradeMoney": 23.7,
+      "proceeds": -23.7,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": -23.7,
+      "closePrice": 95.66,
+      "openCloseIndicator": "O",
+      "notes": "FP;P",
+      "cost": 23.7,
+      "fifoPnlRealized": 0.0,
+      "mtmPnl": 0.215,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "MU",
+      "description": "MICRON TECHNOLOGY INC",
+      "conid": "9939",
+      "securityID": "US5951121038",
+      "securityIDType": "ISIN",
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "MU",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 0.0,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 0.0,
+    "totalCommission": 0.0,
+    "netPnL": 0.0,
+    "winRate": 0,
+    "winners": 0,
+    "losers": 0,
+    "symbols": [
+      "MU"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

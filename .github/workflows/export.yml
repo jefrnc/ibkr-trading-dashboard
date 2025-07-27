@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v3
     
     - name: Export IBKR data
-      uses: jefrnc/ibkr-auto-exporter@v1.0.1
+      uses: jefrnc/ibkr-auto-exporter@v1.0.2
       with:
         ibkr-token: ${{ secrets.IBKR_TOKEN }}
         ibkr-query-id: ${{ secrets.IBKR_QUERY_ID }}

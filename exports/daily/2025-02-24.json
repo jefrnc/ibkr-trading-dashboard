@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-28 22:23:26",
+  "account": "U*****98",
+  "date": "2025-02-24",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7305484169",
+      "reportDate": "20250224",
+      "tradeDate": "20250224",
+      "tradeTime": "",
+      "settleDateTarget": "20250225",
+      "transactionType": "ExchTrade",
+      "exchange": "ISLAND",
+      "quantity": 8.0,
+      "tradePrice": 110.0,
+      "tradeMoney": 880.0,
+      "proceeds": -880.0,
+      "taxes": 0.0,
+      "ibCommission": -1.00028,
+      "ibCommissionCurrency": "USD",
+      "netCash": -881.00028,
+      "closePrice": 108.11,
+      "openCloseIndicator": "O",
+      "notes": "",
+      "cost": 881.00028,
+      "fifoPnlRealized": 0.0,
+      "mtmPnl": -15.12,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "AMD",
+      "description": "ADVANCED MICRO DEVICES",
+      "conid": "4391",
+      "securityID": "US0079031078",
+      "securityIDType": "ISIN",
+      "cusip": "007903107",
+      "isin": "US0079031078",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "AMD",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 0.0,
+      "commission": 1.00028,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 0.0,
+    "totalCommission": 1.0,
+    "netPnL": -1.0,
+    "winRate": 0,
+    "winners": 0,
+    "losers": 0,
+    "symbols": [
+      "AMD"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

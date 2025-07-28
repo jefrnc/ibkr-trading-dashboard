@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-28 22:23:26",
+  "account": "U*****98",
+  "date": "2025-04-08",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7513007215",
+      "reportDate": "20250408",
+      "tradeDate": "20250408",
+      "tradeTime": "",
+      "settleDateTarget": "20250409",
+      "transactionType": "ExchTrade",
+      "exchange": "NYSE",
+      "quantity": 800.0,
+      "tradePrice": 2.02,
+      "tradeMoney": 1616.0,
+      "proceeds": -1616.0,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": -1616.0,
+      "closePrice": 2.02,
+      "openCloseIndicator": "O",
+      "notes": "",
+      "cost": 1616.0,
+      "fifoPnlRealized": 0.0,
+      "mtmPnl": 0.0,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "BBD",
+      "description": "BANCO BRADESCO-ADR",
+      "conid": "28213000",
+      "securityID": "US0594603039",
+      "securityIDType": "ISIN",
+      "cusip": "059460303",
+      "isin": "US0594603039",
+      "listingExchange": "NYSE",
+      "underlyingConid": "",
+      "underlyingSymbol": "BBD",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 0.0,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": 0.0,
+    "totalCommission": 0.0,
+    "netPnL": 0.0,
+    "winRate": 0,
+    "winners": 0,
+    "losers": 0,
+    "symbols": [
+      "BBD"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

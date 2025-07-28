@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-28 22:23:26",
+  "account": "U*****98",
+  "date": "2025-01-30",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7203078529",
+      "reportDate": "20250130",
+      "tradeDate": "20250130",
+      "tradeTime": "",
+      "settleDateTarget": "20250131",
+      "transactionType": "ExchTrade",
+      "exchange": "IBKRATS",
+      "quantity": -8.0,
+      "tradePrice": 116.72,
+      "tradeMoney": -933.76,
+      "proceeds": 933.76,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 933.76,
+      "closePrice": 114.9,
+      "openCloseIndicator": "C",
+      "notes": "",
+      "cost": -1066.16,
+      "fifoPnlRealized": -132.4,
+      "mtmPnl": 14.56,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "UPS",
+      "description": "UNITED PARCEL SERVICE-CL B",
+      "conid": "6231002",
+      "securityID": "US9113121068",
+      "securityIDType": "ISIN",
+      "cusip": "911312106",
+      "isin": "US9113121068",
+      "listingExchange": "NYSE",
+      "underlyingConid": "",
+      "underlyingSymbol": "UPS",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": -132.4,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": -132.4,
+    "totalCommission": 0.0,
+    "netPnL": -132.4,
+    "winRate": 0.0,
+    "winners": 0,
+    "losers": 1,
+    "symbols": [
+      "UPS"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

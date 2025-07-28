@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-28 22:23:26",
+  "account": "U*****98",
+  "date": "2025-03-07",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7368332129",
+      "reportDate": "20250307",
+      "tradeDate": "20250307",
+      "tradeTime": "",
+      "settleDateTarget": "20250310",
+      "transactionType": "ExchTrade",
+      "exchange": "DARK",
+      "quantity": -10.0,
+      "tradePrice": 109.8507,
+      "tradeMoney": -1098.507,
+      "proceeds": 1098.507,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 1098.507,
+      "closePrice": 112.69,
+      "openCloseIndicator": "C",
+      "notes": "IA",
+      "cost": -1260.34,
+      "fifoPnlRealized": -161.833,
+      "mtmPnl": -28.393,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "NVDA",
+      "description": "NVIDIA CORP",
+      "conid": "4815747",
+      "securityID": "US67066G1040",
+      "securityIDType": "ISIN",
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "NVDA",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": -161.833,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": -161.83,
+    "totalCommission": 0.0,
+    "netPnL": -161.83,
+    "winRate": 0.0,
+    "winners": 0,
+    "losers": 1,
+    "symbols": [
+      "NVDA"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

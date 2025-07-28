@@ -1,0 +1,73 @@
+{
+  "exportDate": "2025-07-28 22:23:26",
+  "account": "U*****98",
+  "date": "2025-04-04",
+  "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7486599573",
+      "reportDate": "20250404",
+      "tradeDate": "20250404",
+      "tradeTime": "",
+      "settleDateTarget": "20250407",
+      "transactionType": "ExchTrade",
+      "exchange": "DARK",
+      "quantity": -50.0,
+      "tradePrice": 42.275,
+      "tradeMoney": -2113.75,
+      "proceeds": 2113.75,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 2113.75,
+      "closePrice": 41.36,
+      "openCloseIndicator": "C",
+      "notes": "",
+      "cost": -2439.0,
+      "fifoPnlRealized": -325.25,
+      "mtmPnl": 45.75,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "MAGS",
+      "description": "ROUNDHILL MAGNIFICENT SEVEN",
+      "conid": "624756922",
+      "securityID": "US53656G4982",
+      "securityIDType": "ISIN",
+      "cusip": "53656G498",
+      "isin": "US53656G4982",
+      "listingExchange": "BATS",
+      "underlyingConid": "",
+      "underlyingSymbol": "MAGS",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": -325.25,
+      "commission": 0.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalTrades": 1,
+    "totalPnL": -325.25,
+    "totalCommission": 0.0,
+    "netPnL": -325.25,
+    "winRate": 0.0,
+    "winners": 0,
+    "losers": 1,
+    "symbols": [
+      "MAGS"
+    ],
+    "assetCategories": {
+      "STK": 1
+    }
+  }
+}

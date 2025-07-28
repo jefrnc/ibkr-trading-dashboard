@@ -1,0 +1,99 @@
+name: Update Stats and Deploy
+# Purpose: Updates all statistics and deploys to GitHub Pages
+# Triggers:
+#   - Automatically after any export workflow
+#   - On push to main branch (exports folder)
+#   - Manual trigger
+# What it does:
+#   1. Updates README statistics
+#   2. Generates trading calendar SVG
+#   3. Creates dashboard-data.json
+#   4. Deploys everything to GitHub Pages
+
+on:
+  # Triggered by other workflows
+  repository_dispatch:
+    types: [update-stats]
+  
+  # On push to main branch
+  push:
+    branches: [main]
+    paths:
+      - 'exports/**'
+  
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4 lxml numpy
+    
+    - name: Download scripts
+      run: |
+        wget -q https://raw.githubusercontent.com/jefrnc/ibkr-auto-exporter/main/src/generate_stats.py
+        wget -q https://raw.githubusercontent.com/jefrnc/ibkr-auto-exporter/main/src/generate_calendar.py
+        wget -q https://raw.githubusercontent.com/jefrnc/ibkr-auto-exporter/main/src/generate_dashboard_data.py
+        wget -q https://raw.githubusercontent.com/jefrnc/ibkr-auto-exporter/main/src/generate_monthly_data.py
+    
+    - name: Update statistics
+      run: |
+        echo "📊 Updating trading statistics..."
+        python generate_stats.py
+        
+        echo "📅 Generating calendar..."
+        python generate_calendar.py
+        
+        echo "📈 Generating dashboard data..."
+        python generate_dashboard_data.py
+        
+        echo "📅 Generating monthly data..."
+        python generate_monthly_data.py
+    
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Stats Update Bot"
+        
+        # Add all changes
+        git add -A
+        
+        # Check if there are changes
+        if git diff --quiet --cached; then
+          echo "No changes to commit"
+        else
+          git commit -m "📊 Update trading statistics [skip ci]"
+          git push
+          echo "✅ Statistics updated successfully"
+        fi
+    
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+      
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './docs'
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4 

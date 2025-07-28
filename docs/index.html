@@ -9,8 +9,29 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
         
+        :root {
+            --bg-primary: #f9fafb;
+            --bg-secondary: #ffffff;
+            --text-primary: #111827;
+            --text-secondary: #6b7280;
+            --border-color: #e5e7eb;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+        
+        [data-theme="dark"] {
+            --bg-primary: #111827;
+            --bg-secondary: #1f2937;
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --border-color: #374151;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+        }
+        
         body {
             font-family: 'Inter', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
         
         .profit { color: #10b981; }
@@ -24,8 +45,33 @@
         }
         
         .metric-card {
-            background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
             transition: all 0.3s ease;
+        }
+        
+        .content-card {
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+        
+        .theme-toggle {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            z-index: 50;
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px var(--shadow-color);
+        }
+        
+        .theme-toggle:hover {
+            transform: scale(1.1);
         }
         
         .metric-card:hover {
@@ -46,80 +92,210 @@
         .fade-in {
             animation: fadeIn 0.6s ease-out;
         }
+        
+        /* Tooltip Styles */
+        .tooltip {
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%) scale(0.9);
+            background: rgba(17, 24, 39, 0.95);
+            color: white;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 400;
+            max-width: 220px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s ease;
+            z-index: 50;
+            pointer-events: none;
+            white-space: normal;
+            text-align: center;
+            line-height: 1.5;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: rgba(17, 24, 39, 0.95);
+        }
+        
+        .tooltip-trigger {
+            position: relative;
+        }
+        
+        .tooltip-trigger:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) scale(1);
+        }
     </style>
 </head>
-<body class="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
+<body class="min-h-screen">
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+        </svg>
+    </button>
+    
     <div class="container mx-auto px-4 py-8 max-w-7xl">
         <header class="text-center mb-10 fade-in">
-            <h1 class="text-5xl font-bold text-gray-800 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-                IBKR Trading Dashboard
+            <h1 class="text-5xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-green-600">
+                Trading Dashboard
             </h1>
-            <p class="text-gray-600">Algorithmic Trading Performance ($0-$50 Cost Basis)</p>
+            <p class="text-lg" style="color: var(--text-secondary)">Real-time trading performance analytics</p>
         </header>
         
         <!-- Key Metrics -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
-            <div class="metric-card bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.1s">
-                <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Total P&L</h3>
-                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 mb-8">
+            <!-- First Row -->
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.1s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Total P&L</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
                 </div>
-                <p id="totalPnl" class="text-3xl font-bold text-gray-800">Loading...</p>
-                <p class="text-xs text-gray-500 mt-2">Lifetime earnings</p>
+                <p id="totalPnl" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Lifetime earnings</p>
+                <div class="tooltip">Total profit/loss from all trades</div>
             </div>
             
-            <div class="metric-card bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.2s">
-                <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Total Trades</h3>
-                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.2s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Total Trades</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                     </svg>
                 </div>
-                <p id="totalTrades" class="text-3xl font-bold text-gray-800">Loading...</p>
-                <p class="text-xs text-gray-500 mt-2">Completed transactions</p>
+                <p id="totalTrades" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Completed</p>
+                <div class="tooltip">Total number of executed trades</div>
             </div>
             
-            <div class="metric-card bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.3s">
-                <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Win Rate</h3>
-                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.3s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Win Rate</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
                     </svg>
                 </div>
-                <p id="winRate" class="text-3xl font-bold text-gray-800">Loading...</p>
-                <p class="text-xs text-gray-500 mt-2">Success percentage</p>
+                <p id="winRate" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Success rate</p>
+                <div class="tooltip">Percentage of profitable trades</div>
             </div>
             
-            <div class="metric-card bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.4s">
-                <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Daily Average</h3>
-                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.4s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Daily Avg</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
                     </svg>
                 </div>
-                <p id="dailyAvg" class="text-3xl font-bold text-gray-800">Loading...</p>
-                <p class="text-xs text-gray-500 mt-2">Per trading day</p>
+                <p id="dailyAvg" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Per day</p>
+                <div class="tooltip">Average P&L per trading day</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.5s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Profit Factor</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h10m-5-3v3m6.06 4.19l2.12-2.12a1.5 1.5 0 00-2.12-2.12L15.06 9H9l-.94-.94a1.5 1.5 0 00-2.12 2.12l2.12 2.12"></path>
+                    </svg>
+                </div>
+                <p id="profitFactor" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Ratio</p>
+                <div class="tooltip">Gross profit / Gross loss ratio</div>
+            </div>
+            
+            <!-- Second Row -->
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.6s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Biggest Win</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                    </svg>
+                </div>
+                <p id="biggestWin" class="text-2xl font-bold text-green-600">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Best trade</p>
+                <div class="tooltip">Largest single profitable trade</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.7s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Biggest Loss</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path>
+                    </svg>
+                </div>
+                <p id="biggestLoss" class="text-2xl font-bold text-red-600">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Worst trade</p>
+                <div class="tooltip">Largest single losing trade</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.8s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Total Fees</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                </div>
+                <p id="totalFees" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Commissions</p>
+                <div class="tooltip">Total commissions paid</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.9s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Win Streak</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </div>
+                <p id="winStreak" class="text-2xl font-bold text-green-600">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Max consecutive</p>
+                <div class="tooltip">Longest winning streak</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 1.0s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Loss Streak</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                </div>
+                <p id="lossStreak" class="text-2xl font-bold text-red-600">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Max consecutive</p>
+                <div class="tooltip">Longest losing streak</div>
             </div>
         </div>
         
         <!-- Calendar Heatmap -->
-        <div class="bg-white rounded-xl shadow-lg p-8 mb-10 fade-in" style="animation-delay: 0.5s">
-            <h2 class="text-2xl font-bold text-gray-800 mb-6">Trading Calendar 2025</h2>
+        <div class="content-card rounded-xl shadow-lg p-8 mb-10 fade-in" style="animation-delay: 0.5s">
+            <h2 class="text-2xl font-bold mb-6">Trading Calendar 2025</h2>
             
             <div class="flex justify-center mb-6 text-sm">
                 <div class="flex items-center mr-6">
                     <div class="w-4 h-4 rounded" style="background-color: #10b981"></div>
-                    <span class="text-gray-600 ml-2">Profit</span>
+                    <span class="ml-2" style="color: var(--text-secondary)">Profit</span>
                 </div>
                 <div class="flex items-center mr-6">
                     <div class="w-4 h-4 rounded" style="background-color: #ef4444"></div>
-                    <span class="text-gray-600 ml-2">Loss</span>
+                    <span class="ml-2" style="color: var(--text-secondary)">Loss</span>
                 </div>
                 <div class="flex items-center">
-                    <div class="w-4 h-4 rounded" style="background-color: #e5e7eb"></div>
-                    <span class="text-gray-600 ml-2">No Trades</span>
+                    <div class="w-4 h-4 rounded" style="background-color: var(--border-color)"></div>
+                    <span class="ml-2" style="color: var(--text-secondary)">No Trades</span>
                 </div>
             </div>
             
@@ -128,15 +304,15 @@
         
         <!-- Charts -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-            <div class="bg-white rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.6s">
-                <h2 class="text-2xl font-bold text-gray-800 mb-6">Daily P&L</h2>
+            <div class="content-card rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.6s">
+                <h2 class="text-2xl font-bold mb-6" style="color: var(--text-primary)">Daily P&L</h2>
                 <div class="chart-container">
                     <canvas id="dailyPnlChart"></canvas>
                 </div>
             </div>
             
-            <div class="bg-white rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.7s">
-                <h2 class="text-2xl font-bold text-gray-800 mb-6">Cumulative P&L</h2>
+            <div class="content-card rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.7s">
+                <h2 class="text-2xl font-bold mb-6" style="color: var(--text-primary)">Cumulative P&L</h2>
                 <div class="chart-container">
                     <canvas id="cumulativePnlChart"></canvas>
                 </div>
@@ -144,15 +320,66 @@
         </div>
         
         <!-- Monthly Breakdown -->
-        <div class="bg-white rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.8s">
-            <h2 class="text-2xl font-bold text-gray-800 mb-6">Monthly Performance</h2>
+        <div class="content-card rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.8s">
+            <h2 class="text-2xl font-bold mb-6" style="color: var(--text-primary)">Monthly Performance</h2>
             <div class="chart-container" style="height: 400px;">
                 <canvas id="monthlyChart"></canvas>
             </div>
         </div>
+        
+        <!-- Top Trades Tables -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+            <!-- Top Winners -->
+            <div class="content-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.9s">
+                <h2 class="text-xl font-bold mb-4 flex items-center">
+                    <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Top 10 Winning Trades
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b" style="border-color: var(--border-color)">
+                                <th class="text-left py-3 px-2 font-medium" style="color: var(--text-secondary)">Symbol</th>
+                                <th class="text-left py-3 px-2 font-medium" style="color: var(--text-secondary)">Date</th>
+                                <th class="text-right py-3 px-2 font-medium" style="color: var(--text-secondary)">P&L</th>
+                            </tr>
+                        </thead>
+                        <tbody id="topWinners" class="divide-y" style="color: var(--text-primary)">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- Top Losers -->
+            <div class="content-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 1.0s">
+                <h2 class="text-xl font-bold mb-4 flex items-center">
+                    <svg class="w-6 h-6 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Top 10 Losing Trades
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b" style="border-color: var(--border-color)">
+                                <th class="text-left py-3 px-2 font-medium" style="color: var(--text-secondary)">Symbol</th>
+                                <th class="text-left py-3 px-2 font-medium" style="color: var(--text-secondary)">Date</th>
+                                <th class="text-right py-3 px-2 font-medium" style="color: var(--text-secondary)">P&L</th>
+                            </tr>
+                        </thead>
+                        <tbody id="topLosers" class="divide-y" style="color: var(--text-primary)">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
     
-    <footer class="text-center py-8 text-gray-600">
+    <footer class="text-center py-8" style="color: var(--text-secondary)">
         <p>Generated on 2025-07-27</p>
         <p class="mt-2">
             <a href="https://github.com/jefrnc/ibkr-auto-exporter" class="text-blue-600 hover:underline font-medium">
@@ -171,8 +398,8 @@
             })
             .catch(error => {
                 console.error('Error loading data:', error);
-                // Use embedded fallback data for now
-                const fallbackData = {"yearData":{},"yearStats":{"trading_days":0,"total_trades":0,"total_pnl":0,"win_rate":0,"profit_days":0,"profit_days_pct":0,"loss_days":0,"loss_days_pct":0,"best_day":"","best_day_pnl":0,"worst_day":"","worst_day_pnl":0,"daily_avg":0}};
+                // Use embedded fallback data
+                const fallbackData = {"yearData":{"2025-03-29":{"trades":0,"pnl":0,"winRate":0},"2025-03-30":{"trades":0,"pnl":0,"winRate":0},"2025-03-31":{"trades":0,"pnl":0,"winRate":0},"2025-04-01":{"trades":0,"pnl":0,"winRate":0},"2025-04-02":{"trades":0,"pnl":0,"winRate":0},"2025-04-03":{"trades":0,"pnl":0,"winRate":0},"2025-04-04":{"trades":0,"pnl":0,"winRate":0},"2025-04-05":{"trades":0,"pnl":0,"winRate":0},"2025-04-06":{"trades":0,"pnl":0,"winRate":0},"2025-04-07":{"trades":0,"pnl":0,"winRate":0},"2025-04-08":{"trades":0,"pnl":0,"winRate":0},"2025-04-09":{"trades":0,"pnl":0,"winRate":0},"2025-04-10":{"trades":0,"pnl":0,"winRate":0},"2025-04-11":{"trades":0,"pnl":0,"winRate":0},"2025-04-12":{"trades":0,"pnl":0,"winRate":0},"2025-04-13":{"trades":0,"pnl":0,"winRate":0},"2025-04-14":{"trades":0,"pnl":0,"winRate":0},"2025-04-15":{"trades":0,"pnl":0,"winRate":0},"2025-04-16":{"trades":0,"pnl":0,"winRate":0},"2025-04-17":{"trades":0,"pnl":0,"winRate":0},"2025-04-18":{"trades":0,"pnl":0,"winRate":0},"2025-04-19":{"trades":0,"pnl":0,"winRate":0},"2025-04-20":{"trades":0,"pnl":0,"winRate":0},"2025-04-21":{"trades":0,"pnl":0,"winRate":0},"2025-04-22":{"trades":0,"pnl":0,"winRate":0},"2025-04-23":{"trades":0,"pnl":0,"winRate":0},"2025-04-24":{"trades":0,"pnl":0,"winRate":0},"2025-04-25":{"trades":0,"pnl":0,"winRate":0},"2025-04-26":{"trades":0,"pnl":0,"winRate":0},"2025-04-27":{"trades":0,"pnl":0,"winRate":0},"2025-04-28":{"trades":0,"pnl":0,"winRate":0},"2025-04-29":{"trades":0,"pnl":0,"winRate":0},"2025-04-30":{"trades":0,"pnl":0,"winRate":0},"2025-05-01":{"trades":0,"pnl":0,"winRate":0},"2025-05-02":{"trades":0,"pnl":0,"winRate":0},"2025-05-03":{"trades":0,"pnl":0,"winRate":0},"2025-05-04":{"trades":0,"pnl":0,"winRate":0},"2025-05-05":{"trades":0,"pnl":0,"winRate":0},"2025-05-06":{"trades":0,"pnl":0,"winRate":0},"2025-05-07":{"trades":3,"pnl":0.12,"winRate":0.6666666666666666},"2025-05-08":{"trades":8,"pnl":0.15,"winRate":0.625},"2025-05-09":{"trades":3,"pnl":-0.02,"winRate":1.0},"2025-05-10":{"trades":0,"pnl":0,"winRate":0},"2025-05-11":{"trades":0,"pnl":0,"winRate":0},"2025-05-12":{"trades":3,"pnl":0.05,"winRate":0.0},"2025-05-13":{"trades":2,"pnl":0.02,"winRate":0.5},"2025-05-14":{"trades":0,"pnl":0,"winRate":0},"2025-05-15":{"trades":0,"pnl":0,"winRate":0},"2025-05-16":{"trades":0,"pnl":0,"winRate":0},"2025-05-17":{"trades":0,"pnl":0,"winRate":0},"2025-05-18":{"trades":0,"pnl":0,"winRate":0},"2025-05-19":{"trades":0,"pnl":0,"winRate":0},"2025-05-20":{"trades":0,"pnl":0,"winRate":0},"2025-05-21":{"trades":5,"pnl":0.04,"winRate":0.6},"2025-05-22":{"trades":1,"pnl":0.02,"winRate":0.0},"2025-05-23":{"trades":2,"pnl":0.03,"winRate":1.0},"2025-05-24":{"trades":0,"pnl":0,"winRate":0},"2025-05-25":{"trades":0,"pnl":0,"winRate":0},"2025-05-26":{"trades":0,"pnl":0,"winRate":0},"2025-05-27":{"trades":1,"pnl":0.01,"winRate":1.0},"2025-05-28":{"trades":18,"pnl":0.0,"winRate":0.6666666666666666},"2025-05-29":{"trades":14,"pnl":0.03,"winRate":0.7857142857142857},"2025-05-30":{"trades":14,"pnl":-0.02,"winRate":0.6428571428571429},"2025-05-31":{"trades":0,"pnl":0,"winRate":0},"2025-06-01":{"trades":0,"pnl":0,"winRate":0},"2025-06-02":{"trades":4,"pnl":0.05,"winRate":0.25},"2025-06-03":{"trades":10,"pnl":0.05,"winRate":0.7},"2025-06-04":{"trades":18,"pnl":-0.01,"winRate":0.4444444444444444},"2025-06-05":{"trades":0,"pnl":0,"winRate":0},"2025-06-06":{"trades":0,"pnl":0,"winRate":0},"2025-06-07":{"trades":0,"pnl":0,"winRate":0},"2025-06-08":{"trades":0,"pnl":0,"winRate":0},"2025-06-09":{"trades":0,"pnl":0,"winRate":0},"2025-06-10":{"trades":0,"pnl":0,"winRate":0},"2025-06-11":{"trades":0,"pnl":0,"winRate":0},"2025-06-12":{"trades":8,"pnl":0.03,"winRate":0.375},"2025-06-13":{"trades":25,"pnl":-0.14,"winRate":0.68},"2025-06-14":{"trades":0,"pnl":0,"winRate":0},"2025-06-15":{"trades":0,"pnl":0,"winRate":0},"2025-06-16":{"trades":25,"pnl":0.04,"winRate":0.64},"2025-06-17":{"trades":0,"pnl":0,"winRate":0},"2025-06-18":{"trades":7,"pnl":0.03,"winRate":0.42857142857142855},"2025-06-19":{"trades":0,"pnl":0,"winRate":0},"2025-06-20":{"trades":8,"pnl":0.03,"winRate":0.625},"2025-06-21":{"trades":0,"pnl":0,"winRate":0},"2025-06-22":{"trades":0,"pnl":0,"winRate":0},"2025-06-23":{"trades":0,"pnl":0,"winRate":0},"2025-06-24":{"trades":0,"pnl":0,"winRate":0},"2025-06-25":{"trades":9,"pnl":0.07,"winRate":0.8888888888888888},"2025-06-26":{"trades":3,"pnl":0.83,"winRate":0.3333333333333333},"2025-06-27":{"trades":0,"pnl":0,"winRate":0},"2025-06-28":{"trades":0,"pnl":0,"winRate":0},"2025-06-29":{"trades":0,"pnl":0,"winRate":0},"2025-06-30":{"trades":0,"pnl":0,"winRate":0},"2025-07-01":{"trades":2,"pnl":0.01,"winRate":1.0},"2025-07-02":{"trades":17,"pnl":0.0,"winRate":0.5882352941176471},"2025-07-03":{"trades":1,"pnl":0.0,"winRate":0.0},"2025-07-04":{"trades":0,"pnl":0,"winRate":0},"2025-07-05":{"trades":0,"pnl":0,"winRate":0},"2025-07-06":{"trades":0,"pnl":0,"winRate":0},"2025-07-07":{"trades":0,"pnl":0,"winRate":0},"2025-07-08":{"trades":10,"pnl":0.0,"winRate":1.0},"2025-07-09":{"trades":11,"pnl":0.01,"winRate":0.8181818181818182},"2025-07-10":{"trades":13,"pnl":0.05,"winRate":0.7692307692307693},"2025-07-11":{"trades":18,"pnl":0.1,"winRate":0.6111111111111112},"2025-07-12":{"trades":0,"pnl":0,"winRate":0},"2025-07-13":{"trades":0,"pnl":0,"winRate":0},"2025-07-14":{"trades":32,"pnl":0.12,"winRate":0.75},"2025-07-15":{"trades":24,"pnl":0.07,"winRate":0.7916666666666666},"2025-07-16":{"trades":15,"pnl":0.0,"winRate":0.8666666666666667},"2025-07-17":{"trades":2,"pnl":0.33,"winRate":0.5},"2025-07-18":{"trades":7,"pnl":0.0,"winRate":0.5714285714285714},"2025-07-19":{"trades":0,"pnl":0,"winRate":0},"2025-07-20":{"trades":0,"pnl":0,"winRate":0},"2025-07-21":{"trades":9,"pnl":0.0,"winRate":0.6666666666666666},"2025-07-22":{"trades":0,"pnl":0,"winRate":0},"2025-07-23":{"trades":7,"pnl":0.03,"winRate":1.0},"2025-07-24":{"trades":16,"pnl":0.0,"winRate":0.6875},"2025-07-25":{"trades":13,"pnl":0.0,"winRate":0.5384615384615384},"2025-07-26":{"trades":0,"pnl":0,"winRate":0},"2025-07-27":{"trades":0,"pnl":0,"winRate":0}},"yearStats":{"trading_days":38,"total_trades":388,"total_pnl":2.13,"win_rate":65.78947368421053,"profit_days":25,"profit_days_pct":65.78947368421053,"loss_days":4,"loss_days_pct":10.526315789473683,"best_day":"2025-06-26","best_day_pnl":0.83,"worst_day":"2025-06-13","worst_day_pnl":-0.14,"daily_avg":0.05605263157894737}};
                 initializeDashboard(fallbackData);
             });
         
@@ -187,12 +414,44 @@
             animateValue('totalTrades', 0, stats.total_trades || 0, 1000);
             animateValue('winRate', 0, stats.win_rate || 0, 1000, false, '%');
             animateValue('dailyAvg', 0, stats.daily_avg || 0, 1000, true);
+            animateValue('profitFactor', 0, stats.profit_factor || 0, 1000);
+            animateValue('biggestWin', 0, stats.biggest_win || 0, 1000, true);
+            animateValue('biggestLoss', 0, stats.biggest_loss || 0, 1000, true);
+            animateValue('totalFees', 0, stats.total_fees || 0, 1000, true);
+            animateValue('winStreak', 0, stats.max_win_streak || 0, 1000);
+            animateValue('lossStreak', 0, stats.max_loss_streak || 0, 1000);
             
             // Create calendar with cal-heatmap
             createCalHeatmap(yearData);
             
             // Create charts
             createCharts(yearData);
+            
+            // Populate top trades tables
+            if (stats.top_winners && stats.top_losers) {
+                populateTopTrades('topWinners', stats.top_winners);
+                populateTopTrades('topLosers', stats.top_losers);
+            }
+        }
+        
+        function populateTopTrades(tableId, trades) {
+            const tbody = document.getElementById(tableId);
+            tbody.innerHTML = '';
+            
+            (trades || []).slice(0, 10).forEach(trade => {
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors';
+                const pnl = trade.net || trade.pnl || 0;
+                
+                row.innerHTML = `
+                    <td class="py-3 px-2 font-medium">${trade.symbol}</td>
+                    <td class="py-3 px-2">${new Date(trade.date).toLocaleDateString()}</td>
+                    <td class="py-3 px-2 text-right font-medium ${pnl >= 0 ? 'text-green-600' : 'text-red-600'}">
+                        ${pnl >= 0 ? '+' : ''}$${pnl.toFixed(2)}
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
         }
         
         function animateValue(id, start, end, duration, isCurrency = false, suffix = '') {
@@ -211,7 +470,9 @@
                 let displayValue = current;
                 if (isCurrency) {
                     element.textContent = '$' + displayValue.toFixed(2);
-                    element.className = 'text-3xl font-bold ' + (displayValue >= 0 ? 'text-green-600' : 'text-red-600');
+                    element.className = element.className.includes('text-2xl') ? 
+                        'text-2xl font-bold ' + (displayValue >= 0 ? 'text-green-600' : 'text-red-600') :
+                        'text-3xl font-bold ' + (displayValue >= 0 ? 'text-green-600' : 'text-red-600');
                 } else {
                     element.textContent = displayValue.toFixed(suffix === '%' ? 1 : 0) + suffix;
                 }
@@ -242,6 +503,20 @@
                 monthTitle.style.fontSize = '14px';
                 monthTitle.style.marginBottom = '5px';
                 monthTitle.style.textAlign = 'center';
+                monthTitle.style.cursor = 'pointer';
+                monthTitle.style.transition = 'all 0.2s ease';
+                monthTitle.style.color = 'var(--text-primary)';
+                monthTitle.addEventListener('mouseenter', () => {
+                    monthTitle.style.color = '#3b82f6';
+                    monthTitle.style.transform = 'scale(1.1)';
+                });
+                monthTitle.addEventListener('mouseleave', () => {
+                    monthTitle.style.color = 'var(--text-primary)';
+                    monthTitle.style.transform = 'scale(1)';
+                });
+                monthTitle.addEventListener('click', () => {
+                    window.location.href = `month.html?month=${monthIndex + 1}&year=${year}`;
+                });
                 monthDiv.appendChild(monthTitle);
                 
                 // Create days grid
@@ -257,7 +532,7 @@
                     labelDiv.textContent = label;
                     labelDiv.style.fontSize = '10px';
                     labelDiv.style.textAlign = 'center';
-                    labelDiv.style.color = '#666';
+                    labelDiv.style.color = 'var(--text-secondary)';
                     daysGrid.appendChild(labelDiv);
                 });
                 
@@ -487,9 +762,54 @@
                         x: {
                             grid: { display: false }
                         }
+                    },
+                    onClick: (event, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].index;
+                            const monthData = months[index];
+                            const [year, month] = monthData.split('-');
+                            window.location.href = `month.html?month=${parseInt(month)}&year=${year}`;
+                        }
                     }
                 }
             });
+        }
+        
+        // Dark mode functionality
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Update toggle button icon
+            const button = document.querySelector('.theme-toggle svg');
+            if (newTheme === 'dark') {
+                button.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>';
+            } else {
+                button.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>';
+            }
+            
+            // Update Chart.js colors for dark mode
+            updateChartsForTheme(newTheme);
+        }
+        
+        // Load saved theme on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            
+            if (savedTheme === 'dark') {
+                const button = document.querySelector('.theme-toggle svg');
+                button.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>';
+            }
+        });
+        
+        function updateChartsForTheme(theme) {
+            // This would update chart colors when theme changes
+            // For now, we'll leave it as a placeholder
         }
     </script>
 </body>

@@ -1,0 +1,17 @@
+{
+  "exportDate": "2025-07-29 03:34:14",
+  "account": "U*****98",
+  "date": "2025-07-29",
+  "trades": [],
+  "summary": {
+    "totalTrades": 0,
+    "totalPnL": 0,
+    "totalCommission": 0,
+    "netPnL": 0,
+    "winRate": 0,
+    "winners": 0,
+    "losers": 0,
+    "symbols": [],
+    "assetCategories": {}
+  }
+}

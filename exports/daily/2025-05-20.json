@@ -1,59 +1,8 @@
 {
-  "exportDate": "2025-07-31 03:31:39",
+  "exportDate": "2025-07-31 03:32:21",
   "account": "U*****98",
   "date": "2025-05-20",
   "trades": [
-    {
-      "accountId": "U*****98",
-      "tradeID": "7690026939",
-      "reportDate": "20250520",
-      "tradeDate": "20250520",
-      "tradeTime": "",
-      "settleDateTarget": "20250521",
-      "transactionType": "ExchTrade",
-      "exchange": "NYSE",
-      "quantity": -70.0,
-      "tradePrice": 16.65,
-      "tradeMoney": -1165.5,
-      "proceeds": 1165.5,
-      "taxes": 0.0,
-      "ibCommission": -1.01407,
-      "ibCommissionCurrency": "USD",
-      "netCash": 1164.48593,
-      "closePrice": 16.38,
-      "openCloseIndicator": "C",
-      "notes": "P",
-      "cost": -498.4,
-      "fifoPnlRealized": 666.08593,
-      "mtmPnl": 18.9,
-      "origTradePrice": 0.0,
-      "origTradeDate": "",
-      "origTradeID": "",
-      "origOrderID": "0",
-      "openDateTime": "",
-      "assetCategory": "STK",
-      "symbol": "SUPV",
-      "description": "GRUPO SUPERVIELLE SA-SP ADR",
-      "conid": "233587209",
-      "securityID": "US40054A1088",
-      "securityIDType": "ISIN",
-      "cusip": "40054A108",
-      "isin": "US40054A1088",
-      "listingExchange": "NYSE",
-      "underlyingConid": "",
-      "underlyingSymbol": "SUPV",
-      "underlyingSecurityID": "",
-      "underlyingListingExchange": "",
-      "issuer": "",
-      "multiplier": 1.0,
-      "strike": 0.0,
-      "expiry": "",
-      "putCall": "",
-      "principalAdjustFactor": 1,
-      "pnl": 666.08593,
-      "commission": 1.01407,
-      "currency": "USD"
-    },
     {
       "accountId": "U*****98",
       "tradeID": "7690026999",
@@ -107,18 +56,18 @@
     }
   ],
   "summary": {
-    "totalTrades": 2,
-    "totalPnL": 668.23,
-    "totalCommission": 1.01,
-    "netPnL": 667.21,
+    "totalTrades": 1,
+    "totalPnL": 2.14,
+    "totalCommission": 0.0,
+    "netPnL": 2.14,
     "winRate": 1.0,
-    "winners": 2,
+    "winners": 1,
     "losers": 0,
     "symbols": [
       "SUPV"
     ],
     "assetCategories": {
-      "STK": 2
+      "STK": 1
     }
   }
 }

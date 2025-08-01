@@ -1,8 +1,59 @@
 {
-  "exportDate": "2025-07-31 03:32:21",
+  "exportDate": "2025-08-01 03:37:18",
   "account": "U*****98",
   "date": "2025-01-29",
   "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7197750117",
+      "reportDate": "20250129",
+      "tradeDate": "20250129",
+      "tradeTime": "",
+      "settleDateTarget": "20250130",
+      "transactionType": "ExchTrade",
+      "exchange": "ISLAND",
+      "quantity": -11.0,
+      "tradePrice": 106.0,
+      "tradeMoney": -1166.0,
+      "proceeds": 1166.0,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 1166.0,
+      "closePrice": 108.58,
+      "openCloseIndicator": "C",
+      "notes": "P",
+      "cost": -998.25,
+      "fifoPnlRealized": 167.75,
+      "mtmPnl": -28.38,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "SBUX",
+      "description": "STARBUCKS CORP",
+      "conid": "274105",
+      "securityID": "US8552441094",
+      "securityIDType": "ISIN",
+      "cusip": "855244109",
+      "isin": "US8552441094",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "SBUX",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 167.75,
+      "commission": 0.0,
+      "currency": "USD"
+    },
     {
       "accountId": "U*****98",
       "tradeID": "7197755018",
@@ -56,18 +107,18 @@
     }
   ],
   "summary": {
-    "totalTrades": 1,
-    "totalPnL": 0.29,
+    "totalTrades": 2,
+    "totalPnL": 168.04,
     "totalCommission": 0.0,
-    "netPnL": 0.29,
+    "netPnL": 168.04,
     "winRate": 1.0,
-    "winners": 1,
+    "winners": 2,
     "losers": 0,
     "symbols": [
       "SBUX"
     ],
     "assetCategories": {
-      "STK": 1
+      "STK": 2
     }
   }
 }

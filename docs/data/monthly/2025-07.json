@@ -122,18 +122,24 @@
       "pnl": -427.7,
       "winRate": 0.0,
       "commission": 19.28
+    },
+    "2025-07-30": {
+      "trades": 6,
+      "pnl": -25.0,
+      "winRate": 0.0,
+      "commission": 3.7
     }
   },
   "summary": {
-    "totalTrades": 527,
-    "totalPnL": -550.8399999999999,
-    "winRate": 18.40607210626186,
+    "totalTrades": 533,
+    "totalPnL": -575.8399999999999,
+    "winRate": 18.19887429643527,
     "bestDay": "2025-07-14",
     "bestDayPnL": 463.7,
     "worstDay": "2025-07-09",
     "worstDayPnL": -561.1,
-    "tradingDays": 20,
-    "totalCommission": 270.9100000000001
+    "tradingDays": 21,
+    "totalCommission": 274.61000000000007
   },
   "topWinners": [
     {

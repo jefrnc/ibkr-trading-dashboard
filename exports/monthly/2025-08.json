@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-03 03:35:01",
+  "exportDate": "2025-08-03 03:35:50",
   "account": "U*****98",
   "year": 2025,
   "month": 8,
@@ -34,28 +34,28 @@
   },
   "weeklyData": [
     {
-      "exportDate": "2025-08-03 03:35:01",
+      "exportDate": "2025-08-03 03:35:49",
       "account": "U*****98",
       "year": 2025,
       "weekNumber": 31,
       "weekStart": "2025-07-28",
       "weekEnd": "2025-08-03",
       "statistics": {
-        "totalTrades": 61,
-        "totalPnL": -553.58,
-        "totalCommission": 56.9,
-        "netPnL": -610.48,
-        "winRate": 0.2333,
-        "winners": 7,
-        "losers": 23,
-        "avgDailyPnL": -184.53,
+        "totalTrades": 29,
+        "totalPnL": -29.22,
+        "totalCommission": 9.64,
+        "netPnL": -38.86,
+        "winRate": 0.2143,
+        "winners": 3,
+        "losers": 11,
+        "avgDailyPnL": -9.74,
         "bestDay": {
           "date": "2025-07-30",
-          "pnl": -25.0
+          "pnl": -5.15
         },
         "worstDay": {
-          "date": "2025-07-29",
-          "pnl": -427.7
+          "date": "2025-07-28",
+          "pnl": -24.39
         },
         "consistency": 0.0,
         "tradingDays": 3
@@ -68,12 +68,6 @@
             "pnl": -4.2582949999999995,
             "volume": 133.56,
             "commission": 1.4482949999999999
-          },
-          "BMNR": {
-            "count": 2,
-            "pnl": 55.7114,
-            "volume": 2327.28,
-            "commission": 2.0048399999999997
           },
           "BTOG": {
             "count": 2,
@@ -129,116 +123,81 @@
             "volume": 71.28,
             "commission": 0.73848
           },
-          "MYMU5": {
-            "count": 22,
-            "pnl": -532.6800000000001,
-            "volume": 2879528.0,
-            "commission": 39.68
-          },
-          "BSLK": {
-            "count": 2,
-            "pnl": -20.35458,
-            "volume": 121.68,
-            "commission": 1.27458
-          },
           "NVNI": {
             "count": 2,
             "pnl": -3.457852,
             "volume": 73.17,
             "commission": 0.8978515
           },
-          "ONCY": {
-            "count": 2,
-            "pnl": -9.9955,
-            "volume": 118.5,
-            "commission": 1.4955
-          },
-          "IMNN": {
-            "count": 2,
-            "pnl": -9.89527,
-            "volume": 131.18,
-            "commission": 1.35527
-          },
           "MBRX": {
             "count": 2,
             "pnl": -4.2493,
             "volume": 72.35,
             "commission": 0.8993
-          },
-          "SGD": {
-            "count": 2,
-            "pnl": -7.14837,
-            "volume": 132.62,
-            "commission": 1.4483700000000002
           }
         },
         "byAssetCategory": {
           "STK": {
-            "count": 39,
-            "pnl": -20.89904,
-            "volume": 3707.3903
-          },
-          "FUT": {
-            "count": 22,
-            "pnl": -532.6800000000001,
-            "volume": 2879528.0
+            "count": 29,
+            "pnl": -29.216719999999995,
+            "volume": 876.1302999999999
           }
         },
         "byDayOfWeek": {
           "Monday": {
-            "count": 40,
-            "pnl": -123.86971799999999
+            "count": 23,
+            "pnl": -17.281118
           },
           "Tuesday": {
-            "count": 15,
-            "pnl": -408.416382
+            "count": 4,
+            "pnl": -7.6863019999999995
           },
           "Wednesday": {
-            "count": 6,
-            "pnl": -21.29294
+            "count": 2,
+            "pnl": -4.2493
           }
         },
         "largestWin": {
-          "pnl": 55.7114,
+          "pnl": 5.74152,
           "trade": {
             "accountId": "U*****98",
-            "tradeID": "7976542557",
+            "tradeID": "7972289931",
             "reportDate": "20250728",
             "tradeDate": "20250728",
             "tradeTime": "",
             "settleDateTarget": "20250729",
             "transactionType": "ExchTrade",
-            "exchange": "DARK",
-            "quantity": 40.0,
-            "tradePrice": 38.182,
-            "tradeMoney": 1527.28,
-            "proceeds": -1527.28,
+            "exchange": "ISLAND",
+            "quantity": -8.0,
+            "tradePrice": 4.86,
+            "tradeMoney": -38.88,
+            "proceeds": 38.88,
             "taxes": 0.0,
-            "ibCommission": -1.00108,
+            "ibCommission": -0.390304,
             "ibCommissionCurrency": "USD",
-            "netCash": -1528.28108,
-            "closePrice": 35.11,
+            "netCash": 38.489696,
+            "closePrice": 3.33,
             "openCloseIndicator": "C",
             "notes": "",
-            "cost": 1583.99248,
-            "fifoPnlRealized": 55.7114,
-            "mtmPnl": -122.88,
+            "cost": -32.748176,
+            "fifoPnlRealized": 5.74152,
+            "mtmPnl": 12.24,
             "origTradePrice": 0.0,
             "origTradeDate": "",
             "origTradeID": "",
             "origOrderID": "0",
             "openDateTime": "",
             "assetCategory": "STK",
-            "symbol": "BMNR",
-            "description": "BITMINE IMMERSION TECHNOLOGI",
-            "conid": "785071865",
-            "securityID": "US09175A2069",
+            "symbol": "XXII",
+            "description": "22ND CENTURY GROUP INC",
+            "conid": "792313826",
+            "securityID": "US90137F5098",
             "securityIDType": "ISIN",
-            "cusip": "09175A206",
-            "isin": "US09175A2069",
-            "listingExchange": "AMEX",
+            "cusip": "90137F509",
+            "isin": "US90137F5098",
+            "listingExchange": "NASDAQ",
             "underlyingConid": "",
-            "underlyingSymbol": "BMNR",
+            "underlyingSymbol": "XXII",
             "underlyingSecurityID": "",
             "underlyingListingExchange": "",
             "issuer": "",
@@ -247,144 +206,135 @@
             "expiry": "",
             "putCall": "",
             "principalAdjustFactor": 1,
-            "pnl": 55.7114,
-            "commission": 1.00108,
+            "pnl": 5.74152,
+            "commission": 0.390304,
             "currency": "USD"
           }
         },
         "largestLoss": {
-          "pnl": -331.44,
+          "pnl": -10.53682,
           "trade": {
             "accountId": "U*****98",
-            "tradeID": "1129881697",
-            "reportDate": "20250729",
-            "tradeDate": "20250729",
+            "tradeID": "7973872516",
+            "reportDate": "20250728",
+            "tradeDate": "20250728",
             "tradeTime": "",
-            "settleDateTarget": "20250730",
+            "settleDateTarget": "20250729",
             "transactionType": "ExchTrade",
-            "exchange": "CBOT",
-            "quantity": -6.0,
-            "tradePrice": 44870.0,
-            "tradeMoney": -134610.0,
-            "proceeds": 134610.0,
+            "exchange": "BYX",
+            "quantity": -2.0,
+            "tradePrice": 6.72,
+            "tradeMoney": -13.44,
+            "proceeds": 13.44,
             "taxes": 0.0,
-            "ibCommission": -3.72,
+            "ibCommission": -0.134776,
             "ibCommissionCurrency": "USD",
-            "netCash": 158.28,
-            "closePrice": 44816.0,
+            "netCash": 13.305224,
+            "closePrice": 5.94,
             "openCloseIndicator": "C",
             "notes": "",
-            "cost": -134937.72,
-            "fifoPnlRealized": -331.44,
-            "mtmPnl": 162.0,
+            "cost": -23.842044,
+            "fifoPnlRealized": -10.53682,
+            "mtmPnl": 1.56,
             "origTradePrice": 0.0,
             "origTradeDate": "",
             "origTradeID": "",
             "origOrderID": "0",
             "openDateTime": "",
-            "assetCategory": "FUT",
-            "symbol": "MYMU5",
-            "description": "MYM 19SEP25",
-            "conid": "730283051",
-            "securityID": "",
-            "securityIDType": "",
-            "cusip": "",
-            "isin": "",
-            "listingExchange": "CBOT",
-            "underlyingConid": "362688015",
-            "underlyingSymbol": "MYM",
+            "assetCategory": "STK",
+            "symbol": "MCVT",
+            "description": "MILL CITY VENTURES III LTD",
+            "conid": "577724631",
+            "securityID": "US59982U2006",
+            "securityIDType": "ISIN",
+            "cusip": "59982U200",
+            "isin": "US59982U2006",
+            "listingExchange": "NASDAQ",
+            "underlyingConid": "",
+            "underlyingSymbol": "MCVT",
             "underlyingSecurityID": "",
             "underlyingListingExchange": "",
             "issuer": "",
-            "multiplier": 0.5,
+            "multiplier": 1.0,
             "strike": 0.0,
-            "expiry": "20250919",
+            "expiry": "",
             "putCall": "",
             "principalAdjustFactor": 1,
-            "pnl": -331.44,
-            "commission": 3.72,
+            "pnl": -10.53682,
+            "commission": 0.134776,
             "currency": "USD"
           }
         },
         "mostTraded": {
-          "symbol": "MYMU5",
-          "count": 22
+          "symbol": "ADIL",
+          "count": 4
         },
         "tradingDays": [
           "2025-07-28",
           "2025-07-29",
           "2025-07-30"
         ],
-        "totalVolume": 2883235.3902999996,
-        "avgTradeSize": 47266.15393934426
+        "totalVolume": 876.1302999999999,
+        "avgTradeSize": 30.21138965517241
       },
       "dailySummaries": [
         {
-          "totalTrades": 40,
-          "totalPnL": -123.87,
-          "totalCommission": 33.92,
-          "netPnL": -157.78,
-          "winRate": 0.35,
-          "winners": 7,
-          "losers": 13,
+          "totalTrades": 23,
+          "totalPnL": -17.28,
+          "totalCommission": 7.11,
+          "netPnL": -24.39,
+          "winRate": 0.2727,
+          "winners": 3,
+          "losers": 8,
           "symbols": [
             "ADIL",
-            "BMNR",
             "BTOG",
             "HTOO",
             "IXHL",
             "LIDR",
             "MBOT",
             "MCVT",
-            "MYMU5",
             "UAVS",
             "WGRX",
             "XXII"
           ],
           "assetCategories": {
-            "STK": 25,
-            "FUT": 15
+            "STK": 23
           },
           "date": "2025-07-28",
           "account": "U*****98"
         },
         {
-          "totalTrades": 15,
-          "totalPnL": -408.42,
-          "totalCommission": 19.28,
-          "netPnL": -427.7,
+          "totalTrades": 4,
+          "totalPnL": -7.69,
+          "totalCommission": 1.63,
+          "netPnL": -9.32,
           "winRate": 0.0,
           "winners": 0,
-          "losers": 7,
+          "losers": 2,
           "symbols": [
             "ADIL",
-            "BSLK",
-            "MYMU5",
-            "NVNI",
-            "ONCY"
+            "NVNI"
           ],
           "assetCategories": {
-            "STK": 8,
-            "FUT": 7
+            "STK": 4
           },
           "date": "2025-07-29",
           "account": "U*****98"
         },
         {
-          "totalTrades": 6,
-          "totalPnL": -21.29,
-          "totalCommission": 3.7,
-          "netPnL": -25.0,
+          "totalTrades": 2,
+          "totalPnL": -4.25,
+          "totalCommission": 0.9,
+          "netPnL": -5.15,
           "winRate": 0.0,
           "winners": 0,
-          "losers": 3,
+          "losers": 1,
           "symbols": [
-            "IMNN",
-            "MBRX",
-            "SGD"
+            "MBRX"
           ],
           "assetCategories": {
-            "STK": 6
+            "STK": 2
           },
           "date": "2025-07-30",
           "account": "U*****98"
@@ -443,13 +393,13 @@
         }
       ],
       "metadata": {
-        "generatedAt": "2025-08-03T03:35:01.729155",
+        "generatedAt": "2025-08-03T03:35:49.917506",
         "version": "1.0"
       }
     }
   ],
   "metadata": {
-    "generatedAt": "2025-08-03T03:35:01.895007",
+    "generatedAt": "2025-08-03T03:35:50.073256",
     "version": "1.0"
   }
 }

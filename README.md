@@ -17,21 +17,21 @@ This is a live example of:
 
 | Period | Trades | P&L | Win Rate |
 |--------|--------|-----|----------|
-| **Week 31 (current)** | 29 | **-$38.86** | 21.4% |
-| Week 30 | 116 | **-$136.39** | 29.3% |
+| **Week 32 (current)** | 0 | $0.00 | 0.0% |
+| Week 31 | 29 | **-$38.86** | 21.4% |
 | **August (current)** | 0 | $0.00 | 0.0% |
-| July | 352 | **+$57.07** | 36.7% |
+| July | 533 | **-$575.84** | 36.2% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 475 | 804 |
-| **P&L** | **-$339.76** | **-$575.22** |
+| **Trades** | 726 | 1223 |
+| **P&L** | **+$2798.41** | **+$4715.84** |
 
-*Based on current performance with 149 days remaining*
+*Based on current performance with 148 days remaining*
 
-*Last updated: 2025-08-03 03:35 UTC*
+*Last updated: 2025-08-04 03:37 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -47,26 +47,26 @@ This is a live example of:
 | Metric | Value |
 |--------|-------|
 | **Total Trading Days** | 61 |
-| **Total Trades** | 475 |
-| **Total P&L** | $-339.76 |
-| **Win Rate** | 32.8% |
-| **Profit Days** | 20 (32.8%) |
-| **Loss Days** | 32 (52.5%) |
-| **Best Day** | $330.31 (2025-05-12) |
-| **Worst Day** | $-325.25 (2025-04-04) |
-| **Daily Average** | $-5.57 |
+| **Total Trades** | 726 |
+| **Total P&L** | $2798.41 |
+| **Win Rate** | 37.7% |
+| **Profit Days** | 23 (37.7%) |
+| **Loss Days** | 30 (49.2%) |
+| **Best Day** | $1206.20 (2025-05-29) |
+| **Worst Day** | $-561.10 (2025-07-09) |
+| **Daily Average** | $45.88 |
 
 ### 📈 Monthly Breakdown
 
 | Month | Trades | P&L | Win Rate |
 |-------|--------|-----|----------|
-| January | 9 | **-$414.66** | 28.6% |
-| February | 16 | **+$15.08** | 25.0% |
-| March | 4 | **+$52.65** | 25.0% |
-| April | 4 | **-$328.44** | 0.0% |
-| May | 16 | **+$541.51** | 100.0% |
-| June | 74 | **-$262.97** | 50.0% |
-| July | 352 | **+$57.07** | 14.3% |
+| January | 19 | **+$14.93** | 28.6% |
+| February | 33 | **+$755.86** | 37.5% |
+| March | 7 | **-$240.67** | 25.0% |
+| April | 9 | **-$468.68** | 0.0% |
+| May | 38 | **+$3382.63** | 100.0% |
+| June | 87 | **-$69.82** | 60.0% |
+| July | 533 | **-$575.84** | 19.0% |
 
 <!-- CALENDAR_END -->
 

@@ -1,46 +1,236 @@
 {
-  "exportDate": "2025-08-04 03:37:44",
+  "exportDate": "2025-08-10 03:31:58",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 32,
   "weekStart": "2025-08-04",
   "weekEnd": "2025-08-10",
   "statistics": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommission": 0,
-    "netPnL": 0,
-    "winRate": 0,
-    "winners": 0,
-    "losers": 0,
-    "avgDailyPnL": 0,
-    "bestDay": null,
-    "worstDay": null,
-    "consistency": 0,
-    "tradingDays": 0
+    "totalTrades": 22,
+    "totalPnL": 27.15,
+    "totalCommission": 21.62,
+    "netPnL": 5.53,
+    "winRate": 0.5455,
+    "winners": 6,
+    "losers": 5,
+    "avgDailyPnL": 6.79,
+    "bestDay": {
+      "date": "2025-08-07",
+      "pnl": 80.14
+    },
+    "worstDay": {
+      "date": "2025-08-04",
+      "pnl": -106.51
+    },
+    "consistency": 0.5,
+    "tradingDays": 4
   },
   "patterns": {
     "byHour": {},
-    "bySymbol": {},
-    "byAssetCategory": {},
-    "byDayOfWeek": {},
+    "bySymbol": {
+      "BTBD": {
+        "count": 2,
+        "pnl": -4.042,
+        "volume": 1698.0,
+        "commission": 2.042
+      },
+      "SBET": {
+        "count": 11,
+        "pnl": 142.9155,
+        "volume": 17251.0,
+        "commission": 9.0845
+      },
+      "MYMU5": {
+        "count": 6,
+        "pnl": -144.94,
+        "volume": 529997.0,
+        "commission": 7.44
+      },
+      "BTAI": {
+        "count": 1,
+        "pnl": 0.0,
+        "volume": 327.0,
+        "commission": 1.0188
+      },
+      "OPEN": {
+        "count": 2,
+        "pnl": 33.21775,
+        "volume": 564.75,
+        "commission": 2.0322500000000003
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 16,
+        "pnl": 172.09125,
+        "volume": 19840.75
+      },
+      "FUT": {
+        "count": 6,
+        "pnl": -144.94,
+        "volume": 529997.0
+      }
+    },
+    "byDayOfWeek": {
+      "Monday": {
+        "count": 11,
+        "pnl": -95.00299999999999
+      },
+      "Wednesday": {
+        "count": 4,
+        "pnl": 0.0
+      },
+      "Thursday": {
+        "count": 4,
+        "pnl": 84.16475
+      },
+      "Friday": {
+        "count": 3,
+        "pnl": 37.9895
+      }
+    },
     "largestWin": {
-      "pnl": 0,
-      "trade": null
+      "pnl": 53.979,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8011683725",
+        "reportDate": "20250804",
+        "tradeDate": "20250804",
+        "tradeTime": "",
+        "settleDateTarget": "20250805",
+        "transactionType": "ExchTrade",
+        "exchange": "ISLAND",
+        "quantity": 100.0,
+        "tradePrice": 19.44,
+        "tradeMoney": 1944.0,
+        "proceeds": -1944.0,
+        "taxes": 0.0,
+        "ibCommission": -1.0022,
+        "ibCommissionCurrency": "USD",
+        "netCash": -1945.0022,
+        "closePrice": 19.14,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": 1998.9812,
+        "fifoPnlRealized": 53.979,
+        "mtmPnl": -30.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "SBET",
+        "description": "SHARPLINK GAMING INC",
+        "conid": "781675063",
+        "securityID": "US8200144058",
+        "securityIDType": "ISIN",
+        "cusip": "820014405",
+        "isin": "US8200144058",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "SBET",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 53.979,
+        "commission": 1.0022,
+        "currency": "USD"
+      }
     },
     "largestLoss": {
-      "pnl": 0,
-      "trade": null
+      "pnl": -55.48,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "1131595739",
+        "reportDate": "20250804",
+        "tradeDate": "20250804",
+        "tradeTime": "",
+        "settleDateTarget": "20250805",
+        "transactionType": "ExchTrade",
+        "exchange": "CBOT",
+        "quantity": 2.0,
+        "tradePrice": 44245.0,
+        "tradeMoney": 44245.0,
+        "proceeds": -44245.0,
+        "taxes": 0.0,
+        "ibCommission": -1.24,
+        "ibCommissionCurrency": "USD",
+        "netCash": 56.76,
+        "closePrice": 44303.0,
+        "openCloseIndicator": "C",
+        "notes": "P",
+        "cost": 44190.76,
+        "fifoPnlRealized": -55.48,
+        "mtmPnl": 58.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "FUT",
+        "symbol": "MYMU5",
+        "description": "MYM 19SEP25",
+        "conid": "730283051",
+        "securityID": "",
+        "securityIDType": "",
+        "cusip": "",
+        "isin": "",
+        "listingExchange": "CBOT",
+        "underlyingConid": "362688015",
+        "underlyingSymbol": "MYM",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 0.5,
+        "strike": 0.0,
+        "expiry": "20250919",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": -55.48,
+        "commission": 1.24,
+        "currency": "USD"
+      }
     },
     "mostTraded": {
-      "symbol": "",
-      "count": 0
+      "symbol": "SBET",
+      "count": 11
     },
-    "tradingDays": [],
-    "totalVolume": 0,
-    "avgTradeSize": 0
+    "tradingDays": [
+      "2025-08-04",
+      "2025-08-06",
+      "2025-08-07",
+      "2025-08-08"
+    ],
+    "totalVolume": 549837.75,
+    "avgTradeSize": 24992.625
   },
   "dailySummaries": [
+    {
+      "totalTrades": 11,
+      "totalPnL": -95.0,
+      "totalCommission": 11.5,
+      "netPnL": -106.51,
+      "winRate": 0.1667,
+      "winners": 1,
+      "losers": 5,
+      "symbols": [
+        "BTBD",
+        "MYMU5",
+        "SBET"
+      ],
+      "assetCategories": {
+        "STK": 5,
+        "FUT": 6
+      },
+      "date": "2025-08-04",
+      "account": "U*****98"
+    },
     {
       "totalTrades": 0,
       "totalPnL": 0,
@@ -51,12 +241,92 @@
       "losers": 0,
       "symbols": [],
       "assetCategories": {},
-      "date": "2025-08-04",
+      "date": "2025-08-05",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 4,
+      "totalPnL": 0.0,
+      "totalCommission": 4.08,
+      "netPnL": -4.08,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [
+        "BTAI",
+        "OPEN",
+        "SBET"
+      ],
+      "assetCategories": {
+        "STK": 4
+      },
+      "date": "2025-08-06",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 4,
+      "totalPnL": 84.16,
+      "totalCommission": 4.03,
+      "netPnL": 80.14,
+      "winRate": 1.0,
+      "winners": 3,
+      "losers": 0,
+      "symbols": [
+        "OPEN",
+        "SBET"
+      ],
+      "assetCategories": {
+        "STK": 4
+      },
+      "date": "2025-08-07",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 3,
+      "totalPnL": 37.99,
+      "totalCommission": 2.01,
+      "netPnL": 35.98,
+      "winRate": 1.0,
+      "winners": 2,
+      "losers": 0,
+      "symbols": [
+        "SBET"
+      ],
+      "assetCategories": {
+        "STK": 3
+      },
+      "date": "2025-08-08",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-08-09",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-08-10",
       "account": "U*****98"
     }
   ],
   "metadata": {
-    "generatedAt": "2025-08-04T03:37:44.407685",
+    "generatedAt": "2025-08-10T03:31:58.813419",
     "version": "1.0"
   }
 }

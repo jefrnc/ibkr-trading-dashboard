@@ -319,29 +319,34 @@
       "trades": 4,
       "pnl": 80.14,
       "winRate": 0.75
+    },
+    "2025-08-08": {
+      "trades": 3,
+      "pnl": 35.98,
+      "winRate": 0.6666666666666666
     }
   },
   "yearStats": {
-    "trading_days": 64,
-    "total_trades": 745,
-    "total_pnl": 2767.96,
-    "win_rate": 37.5,
-    "profit_days": 24,
-    "profit_days_pct": 37.5,
+    "trading_days": 65,
+    "total_trades": 748,
+    "total_pnl": 2803.94,
+    "win_rate": 38.46,
+    "profit_days": 25,
+    "profit_days_pct": 38.46,
     "loss_days": 32,
-    "loss_days_pct": 50.0,
+    "loss_days_pct": 49.23,
     "best_day": "2025-05-29",
     "best_day_pnl": 1206.2,
     "worst_day": "2025-07-09",
     "worst_day_pnl": -561.1,
-    "daily_avg": 43.25,
-    "profit_factor": 1.66,
+    "daily_avg": 43.14,
+    "profit_factor": 1.67,
     "biggest_win": 666.09,
     "biggest_loss": -336.2,
-    "total_fees": 352.82,
+    "total_fees": 354.83,
     "max_win_streak": 15,
     "max_loss_streak": 11,
-    "current_streak": 3,
+    "current_streak": 5,
     "current_streak_type": "win",
     "top_winners": [
       {
@@ -1369,8 +1374,8 @@
     ]
   },
   "metadata": {
-    "lastUpdate": "2025-08-09T03:26:50.425989",
-    "exportedTrades": 745,
+    "lastUpdate": "2025-08-10T03:31:59.003420",
+    "exportedTrades": 748,
     "source": "IBKR Flex Web Service"
   }
 }

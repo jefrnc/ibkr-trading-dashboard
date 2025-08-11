@@ -20,18 +20,18 @@ This is a live example of:
 | **Week 33 (current)** | 0 | $0.00 | 0.0% |
 | Week 32 | 22 | **+$5.53** | 54.5% |
 | **August (current)** | 0 | $0.00 | 0.0% |
-| July | 533 | **-$575.84** | 36.2% |
+| July | 352 | **+$57.07** | 36.7% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 726 | 1185 |
-| **P&L** | **+$2798.41** | **+$4567.81** |
+| **Trades** | 475 | 775 |
+| **P&L** | **-$339.76** | **-$554.59** |
 
 *Based on current performance with 141 days remaining*
 
-*Last updated: 2025-08-11 03:31 UTC*
+*Last updated: 2025-08-11 03:32 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -47,26 +47,26 @@ This is a live example of:
 | Metric | Value |
 |--------|-------|
 | **Total Trading Days** | 65 |
-| **Total Trades** | 748 |
-| **Total P&L** | $2803.94 |
-| **Win Rate** | 38.5% |
-| **Profit Days** | 25 (38.5%) |
-| **Loss Days** | 32 (49.2%) |
-| **Best Day** | $1206.20 (2025-05-29) |
-| **Worst Day** | $-561.10 (2025-07-09) |
-| **Daily Average** | $43.14 |
+| **Total Trades** | 497 |
+| **Total P&L** | $-334.23 |
+| **Win Rate** | 33.8% |
+| **Profit Days** | 22 (33.8%) |
+| **Loss Days** | 34 (52.3%) |
+| **Best Day** | $330.31 (2025-05-12) |
+| **Worst Day** | $-325.25 (2025-04-04) |
+| **Daily Average** | $-5.14 |
 
 ### 📈 Monthly Breakdown
 
 | Month | Trades | P&L | Win Rate |
 |-------|--------|-----|----------|
-| January | 19 | **+$14.93** | 28.6% |
-| February | 33 | **+$755.86** | 37.5% |
-| March | 7 | **-$240.67** | 25.0% |
-| April | 9 | **-$468.68** | 0.0% |
-| May | 38 | **+$3382.63** | 100.0% |
-| June | 87 | **-$69.82** | 60.0% |
-| July | 533 | **-$575.84** | 19.0% |
+| January | 9 | **-$414.66** | 28.6% |
+| February | 16 | **+$15.08** | 25.0% |
+| March | 4 | **+$52.65** | 25.0% |
+| April | 4 | **-$328.44** | 0.0% |
+| May | 16 | **+$541.51** | 100.0% |
+| June | 74 | **-$262.97** | 50.0% |
+| July | 352 | **+$57.07** | 14.3% |
 | August | 22 | **+$5.53** | 50.0% |
 
 <!-- CALENDAR_END -->

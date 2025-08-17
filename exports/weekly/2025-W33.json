@@ -1,19 +1,19 @@
 {
-  "exportDate": "2025-08-17 03:29:31",
+  "exportDate": "2025-08-17 03:30:20",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 33,
   "weekStart": "2025-08-11",
   "weekEnd": "2025-08-17",
   "statistics": {
-    "totalTrades": 50,
-    "totalPnL": -427.5,
-    "totalCommission": 46.56,
-    "netPnL": -474.06,
-    "winRate": 0.6316,
-    "winners": 12,
-    "losers": 7,
-    "avgDailyPnL": -85.5,
+    "totalTrades": 22,
+    "totalPnL": -185.6,
+    "totalCommission": 20.41,
+    "netPnL": -206.02,
+    "winRate": 0.75,
+    "winners": 6,
+    "losers": 2,
+    "avgDailyPnL": -37.12,
     "bestDay": {
       "date": "2025-08-14",
       "pnl": 207.04
@@ -22,41 +22,29 @@
       "date": "2025-08-12",
       "pnl": -409.28
     },
-    "consistency": 0.4,
+    "consistency": 0.2,
     "tradingDays": 5
   },
   "patterns": {
     "byHour": {},
     "bySymbol": {
+      "NIO": {
+        "count": 1,
+        "pnl": -0.207459,
+        "volume": 1.71558,
+        "commission": 0.017223929
+      },
       "BMNR": {
-        "count": 27,
-        "pnl": -536.608249,
-        "volume": 31761.65,
-        "commission": 25.058250000000008
+        "count": 10,
+        "pnl": -444.6326,
+        "volume": 18105.4,
+        "commission": 10.0326
       },
       "BTAI": {
-        "count": 5,
-        "pnl": -44.1887,
-        "volume": 4641.1,
-        "commission": 4.2699
-      },
-      "NIO": {
-        "count": 2,
-        "pnl": 29.89445,
-        "volume": 930.9305800000001,
-        "commission": 1.036931129
-      },
-      "PAPL": {
-        "count": 2,
-        "pnl": 2.578,
-        "volume": 813.4,
-        "commission": 2.0220000000000002
-      },
-      "SBET": {
-        "count": 2,
-        "pnl": -124.01075,
-        "volume": 2527.0,
-        "commission": 2.01075
+        "count": 4,
+        "pnl": 102.3328,
+        "volume": 4169.6,
+        "commission": 3.2672
       },
       "MNTS": {
         "count": 3,
@@ -70,18 +58,6 @@
         "volume": 685.5,
         "commission": 2.032
       },
-      "CASI": {
-        "count": 2,
-        "pnl": 74.9785,
-        "volume": 501.0,
-        "commission": 2.0214999999999996
-      },
-      "PGEN": {
-        "count": 3,
-        "pnl": 12.957,
-        "volume": 1164.0,
-        "commission": 3.043
-      },
       "EUR.USD": {
         "count": 1,
         "pnl": 0.0,
@@ -91,9 +67,9 @@
     },
     "byAssetCategory": {
       "STK": {
-        "count": 49,
-        "pnl": -427.496249,
-        "volume": 44097.08058
+        "count": 21,
+        "pnl": -185.60375899999997,
+        "volume": 24034.71558
       },
       "CASH": {
         "count": 1,
@@ -103,8 +79,8 @@
     },
     "byDayOfWeek": {
       "Monday": {
-        "count": 9,
-        "pnl": -300.76189999999997
+        "count": 1,
+        "pnl": -0.207459
       },
       "Tuesday": {
         "count": 10,
@@ -119,8 +95,8 @@
         "pnl": 214.59265
       },
       "Friday": {
-        "count": 21,
-        "pnl": 58.661950999999995
+        "count": 1,
+        "pnl": 0.0
       }
     },
     "largestWin": {
@@ -233,7 +209,7 @@
     },
     "mostTraded": {
       "symbol": "BMNR",
-      "count": 27
+      "count": 10
     },
     "tradingDays": [
       "2025-08-11",
@@ -242,27 +218,23 @@
       "2025-08-14",
       "2025-08-15"
     ],
-    "totalVolume": 44097.092283,
-    "avgTradeSize": 881.94184566
+    "totalVolume": 24034.727283,
+    "avgTradeSize": 1092.4876037727272
   },
   "dailySummaries": [
     {
-      "totalTrades": 9,
-      "totalPnL": -300.76,
-      "totalCommission": 8.07,
-      "netPnL": -308.84,
-      "winRate": 0.3333,
-      "winners": 2,
-      "losers": 4,
+      "totalTrades": 1,
+      "totalPnL": -0.21,
+      "totalCommission": 0.02,
+      "netPnL": -0.22,
+      "winRate": 0.0,
+      "winners": 0,
+      "losers": 1,
       "symbols": [
-        "BMNR",
-        "BTAI",
-        "NIO",
-        "PAPL",
-        "SBET"
+        "NIO"
       ],
       "assetCategories": {
-        "STK": 9
+        "STK": 1
       },
       "date": "2025-08-11",
       "account": "U*****98"
@@ -322,21 +294,17 @@
       "account": "U*****98"
     },
     {
-      "totalTrades": 21,
-      "totalPnL": 58.66,
-      "totalCommission": 20.09,
-      "netPnL": 38.57,
-      "winRate": 0.6667,
-      "winners": 4,
-      "losers": 2,
+      "totalTrades": 1,
+      "totalPnL": 0.0,
+      "totalCommission": 2.0,
+      "netPnL": -2.0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
       "symbols": [
-        "BMNR",
-        "CASI",
-        "EUR.USD",
-        "PGEN"
+        "EUR.USD"
       ],
       "assetCategories": {
-        "STK": 20,
         "CASH": 1
       },
       "date": "2025-08-15",
@@ -370,7 +338,7 @@
     }
   ],
   "metadata": {
-    "generatedAt": "2025-08-17T03:29:31.986503",
+    "generatedAt": "2025-08-17T03:30:20.427757",
     "version": "1.0"
   }
 }

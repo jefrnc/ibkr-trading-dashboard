@@ -364,30 +364,35 @@
       "trades": 5,
       "pnl": -121.03,
       "winRate": 0.0
+    },
+    "2025-08-22": {
+      "trades": 9,
+      "pnl": 312.13,
+      "winRate": 0.5555555555555556
     }
   },
   "yearStats": {
-    "trading_days": 73,
-    "total_trades": 857,
-    "total_pnl": 2258.88,
-    "win_rate": 38.36,
-    "profit_days": 28,
-    "profit_days_pct": 38.36,
+    "trading_days": 74,
+    "total_trades": 866,
+    "total_pnl": 2571.01,
+    "win_rate": 39.19,
+    "profit_days": 29,
+    "profit_days_pct": 39.19,
     "loss_days": 37,
-    "loss_days_pct": 50.68,
+    "loss_days_pct": 50.0,
     "best_day": "2025-05-29",
     "best_day_pnl": 1206.2,
     "worst_day": "2025-07-09",
     "worst_day_pnl": -561.1,
-    "daily_avg": 30.94,
-    "profit_factor": 1.46,
+    "daily_avg": 34.74,
+    "profit_factor": 1.52,
     "biggest_win": 666.09,
     "biggest_loss": -502.32,
-    "total_fees": 451.19,
+    "total_fees": 458.23,
     "max_win_streak": 15,
     "max_loss_streak": 11,
-    "current_streak": 1,
-    "current_streak_type": "loss",
+    "current_streak": 5,
+    "current_streak_type": "win",
     "top_winners": [
       {
         "accountId": "U*****98",
@@ -1414,8 +1419,8 @@
     ]
   },
   "metadata": {
-    "lastUpdate": "2025-08-23T03:17:09.498292",
-    "exportedTrades": 857,
+    "lastUpdate": "2025-08-26T03:19:45.311097",
+    "exportedTrades": 866,
     "source": "IBKR Flex Web Service"
   }
 }

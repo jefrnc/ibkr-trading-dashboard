@@ -1,0 +1,376 @@
+{
+  "exportDate": "2025-08-31 03:18:16",
+  "account": "U*****98",
+  "year": 2025,
+  "weekNumber": 35,
+  "weekStart": "2025-08-25",
+  "weekEnd": "2025-08-31",
+  "statistics": {
+    "totalTrades": 69,
+    "totalPnL": 604.24,
+    "totalCommission": 49.98,
+    "netPnL": 554.26,
+    "winRate": 0.8857,
+    "winners": 31,
+    "losers": 4,
+    "avgDailyPnL": 120.85,
+    "bestDay": {
+      "date": "2025-08-28",
+      "pnl": 308.57
+    },
+    "worstDay": {
+      "date": "2025-08-27",
+      "pnl": 16.13
+    },
+    "consistency": 1.0,
+    "tradingDays": 5
+  },
+  "patterns": {
+    "byHour": {},
+    "bySymbol": {
+      "BMNR": {
+        "count": 16,
+        "pnl": 127.646655,
+        "volume": 13905.67,
+        "commission": 16.024915
+      },
+      "IVVD": {
+        "count": 3,
+        "pnl": -32.393,
+        "volume": 355.23,
+        "commission": 3.043
+      },
+      "NUKK": {
+        "count": 5,
+        "pnl": 82.13550000000001,
+        "volume": 3344.7999999999997,
+        "commission": 5.064499999999999
+      },
+      "TTNP": {
+        "count": 2,
+        "pnl": 34.979,
+        "volume": 1297.0,
+        "commission": 2.021
+      },
+      "VCIG": {
+        "count": 4,
+        "pnl": 10.7627,
+        "volume": 355.3201,
+        "commission": 2.9974
+      },
+      "AGRI": {
+        "count": 9,
+        "pnl": 58.6975,
+        "volume": 1658.0,
+        "commission": 4.3025
+      },
+      "SOGP": {
+        "count": 22,
+        "pnl": 346.69224999999994,
+        "volume": 13738.17,
+        "commission": 10.137749999999999
+      },
+      "MYMU5": {
+        "count": 2,
+        "pnl": -22.74,
+        "volume": 91167.0,
+        "commission": 1.24
+      },
+      "CARM": {
+        "count": 2,
+        "pnl": 13.4862,
+        "volume": 109.28,
+        "commission": 1.1138
+      },
+      "GMHS": {
+        "count": 4,
+        "pnl": -15.031500000000001,
+        "volume": 761.0,
+        "commission": 4.0315
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 67,
+        "pnl": 626.9753050000002,
+        "volume": 35524.4701
+      },
+      "FUT": {
+        "count": 2,
+        "pnl": -22.74,
+        "volume": 91167.0
+      }
+    },
+    "byDayOfWeek": {
+      "Monday": {
+        "count": 5,
+        "pnl": 142.10943
+      },
+      "Tuesday": {
+        "count": 14,
+        "pnl": 87.9198
+      },
+      "Wednesday": {
+        "count": 11,
+        "pnl": 22.442124999999997
+      },
+      "Thursday": {
+        "count": 28,
+        "pnl": 323.95224999999994
+      },
+      "Friday": {
+        "count": 11,
+        "pnl": 27.8117
+      }
+    },
+    "largestWin": {
+      "pnl": 128.314143,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8126537093",
+        "reportDate": "20250828",
+        "tradeDate": "20250828",
+        "tradeTime": "",
+        "settleDateTarget": "20250829",
+        "transactionType": "ExchTrade",
+        "exchange": "NASDAQ",
+        "quantity": -139.0,
+        "tradePrice": 13.23,
+        "tradeMoney": -1838.97,
+        "proceeds": 1838.97,
+        "taxes": 0.0,
+        "ibCommission": -0.026132,
+        "ibCommissionCurrency": "USD",
+        "netCash": 1838.943868,
+        "closePrice": 12.5,
+        "openCloseIndicator": "C",
+        "notes": "P",
+        "cost": -1710.629725,
+        "fifoPnlRealized": 128.314143,
+        "mtmPnl": 101.47,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "SOGP",
+        "description": "SOUND GROUP INC",
+        "conid": "654500635",
+        "securityID": "US53933L2034",
+        "securityIDType": "ISIN",
+        "cusip": "53933L203",
+        "isin": "US53933L2034",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "SOGP",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 128.314143,
+        "commission": 0.026132,
+        "currency": "USD"
+      }
+    },
+    "largestLoss": {
+      "pnl": -36.255375,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8118924542",
+        "reportDate": "20250827",
+        "tradeDate": "20250827",
+        "tradeTime": "",
+        "settleDateTarget": "20250828",
+        "transactionType": "ExchTrade",
+        "exchange": "DARK",
+        "quantity": -25.0,
+        "tradePrice": 46.82,
+        "tradeMoney": -1170.5,
+        "proceeds": 1170.5,
+        "taxes": 0.0,
+        "ibCommission": -1.004825,
+        "ibCommissionCurrency": "USD",
+        "netCash": 1169.495175,
+        "closePrice": 46.03,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": -1205.75055,
+        "fifoPnlRealized": -36.255375,
+        "mtmPnl": 19.75,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "BMNR",
+        "description": "BITMINE IMMERSION TECHNOLOGI",
+        "conid": "785071865",
+        "securityID": "US09175A2069",
+        "securityIDType": "ISIN",
+        "cusip": "09175A206",
+        "isin": "US09175A2069",
+        "listingExchange": "AMEX",
+        "underlyingConid": "",
+        "underlyingSymbol": "BMNR",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": -36.255375,
+        "commission": 1.004825,
+        "currency": "USD"
+      }
+    },
+    "mostTraded": {
+      "symbol": "SOGP",
+      "count": 22
+    },
+    "tradingDays": [
+      "2025-08-25",
+      "2025-08-26",
+      "2025-08-27",
+      "2025-08-28",
+      "2025-08-29"
+    ],
+    "totalVolume": 126691.47010000002,
+    "avgTradeSize": 1836.1082623188408
+  },
+  "dailySummaries": [
+    {
+      "totalTrades": 5,
+      "totalPnL": 142.11,
+      "totalCommission": 5.01,
+      "netPnL": 137.1,
+      "winRate": 1.0,
+      "winners": 3,
+      "losers": 0,
+      "symbols": [
+        "BMNR"
+      ],
+      "assetCategories": {
+        "STK": 5
+      },
+      "date": "2025-08-25",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 14,
+      "totalPnL": 87.92,
+      "totalCommission": 13.09,
+      "netPnL": 74.83,
+      "winRate": 0.8,
+      "winners": 4,
+      "losers": 1,
+      "symbols": [
+        "BMNR",
+        "IVVD",
+        "NUKK",
+        "TTNP",
+        "VCIG"
+      ],
+      "assetCategories": {
+        "STK": 14
+      },
+      "date": "2025-08-26",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 11,
+      "totalPnL": 22.44,
+      "totalCommission": 6.31,
+      "netPnL": 16.13,
+      "winRate": 0.8571,
+      "winners": 6,
+      "losers": 1,
+      "symbols": [
+        "AGRI",
+        "BMNR"
+      ],
+      "assetCategories": {
+        "STK": 11
+      },
+      "date": "2025-08-27",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 28,
+      "totalPnL": 323.95,
+      "totalCommission": 15.38,
+      "netPnL": 308.57,
+      "winRate": 0.9375,
+      "winners": 15,
+      "losers": 1,
+      "symbols": [
+        "BMNR",
+        "MYMU5",
+        "SOGP"
+      ],
+      "assetCategories": {
+        "STK": 26,
+        "FUT": 2
+      },
+      "date": "2025-08-28",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 11,
+      "totalPnL": 27.81,
+      "totalCommission": 10.19,
+      "netPnL": 17.62,
+      "winRate": 0.75,
+      "winners": 3,
+      "losers": 1,
+      "symbols": [
+        "BMNR",
+        "CARM",
+        "GMHS",
+        "NUKK"
+      ],
+      "assetCategories": {
+        "STK": 11
+      },
+      "date": "2025-08-29",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-08-30",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-08-31",
+      "account": "U*****98"
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2025-08-31T03:18:16.468695",
+    "version": "1.0"
+  }
+}

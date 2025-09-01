@@ -1,0 +1,23 @@
+MONTHLY TRADING REPORT - September 2025
+============================================================
+
+Account: U*****98
+Generated: 2025-09-01 03:27:33
+
+PERFORMANCE SUMMARY
+------------------------------
+Total Trades:                 0
+Trading Days:                 0
+Gross P&L:          $      0.00
+Commissions:        $      0.00
+Net P&L:            $      0.00
+
+RISK METRICS
+------------------------------
+Avg Daily P&L:      $      0.00
+Consistency:                0.0%
+Sharpe Ratio:              0.00
+Profit Factor:             0.00
+Worst Drawdown:     $      0.00
+Best Win Streak:              0
+Max Losing Streak:            0

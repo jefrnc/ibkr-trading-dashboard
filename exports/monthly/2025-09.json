@@ -1,0 +1,103 @@
+{
+  "exportDate": "2025-09-01 03:27:33",
+  "account": "U*****98",
+  "year": 2025,
+  "month": 9,
+  "monthName": "September",
+  "statistics": {
+    "totalTrades": 0,
+    "totalPnL": 0,
+    "totalCommission": 0,
+    "netPnL": 0,
+    "tradingDays": 0,
+    "avgDailyPnL": 0,
+    "consistency": 0,
+    "sharpeRatio": 0,
+    "profitFactor": 0,
+    "worstDrawdown": 0,
+    "bestStreak": 0,
+    "maxConsecutiveLosses": 0
+  },
+  "analysis": {
+    "tradingDays": 0,
+    "totalDays": 1,
+    "consistency": 0,
+    "bestStreak": 0,
+    "currentStreak": 0,
+    "worstDrawdown": 0,
+    "avgDailyPnL": 0,
+    "stdDailyPnL": 0,
+    "sharpeRatio": 0,
+    "profitFactor": 0,
+    "expectancy": 0,
+    "maxConsecutiveLosses": 0
+  },
+  "weeklyData": [
+    {
+      "exportDate": "2025-09-01 03:27:32",
+      "account": "U*****98",
+      "year": 2025,
+      "weekNumber": 36,
+      "weekStart": "2025-09-01",
+      "weekEnd": "2025-09-07",
+      "statistics": {
+        "totalTrades": 0,
+        "totalPnL": 0,
+        "totalCommission": 0,
+        "netPnL": 0,
+        "winRate": 0,
+        "winners": 0,
+        "losers": 0,
+        "avgDailyPnL": 0,
+        "bestDay": null,
+        "worstDay": null,
+        "consistency": 0,
+        "tradingDays": 0
+      },
+      "patterns": {
+        "byHour": {},
+        "bySymbol": {},
+        "byAssetCategory": {},
+        "byDayOfWeek": {},
+        "largestWin": {
+          "pnl": 0,
+          "trade": null
+        },
+        "largestLoss": {
+          "pnl": 0,
+          "trade": null
+        },
+        "mostTraded": {
+          "symbol": "",
+          "count": 0
+        },
+        "tradingDays": [],
+        "totalVolume": 0,
+        "avgTradeSize": 0
+      },
+      "dailySummaries": [
+        {
+          "totalTrades": 0,
+          "totalPnL": 0,
+          "totalCommission": 0,
+          "netPnL": 0,
+          "winRate": 0,
+          "winners": 0,
+          "losers": 0,
+          "symbols": [],
+          "assetCategories": {},
+          "date": "2025-09-01",
+          "account": "U*****98"
+        }
+      ],
+      "metadata": {
+        "generatedAt": "2025-09-01T03:27:32.880980",
+        "version": "1.0"
+      }
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2025-09-01T03:27:33.056997",
+    "version": "1.0"
+  }
+}

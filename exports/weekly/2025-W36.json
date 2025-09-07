@@ -1,44 +1,257 @@
 {
-  "exportDate": "2025-09-01 03:28:30",
+  "exportDate": "2025-09-07 03:16:18",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 36,
   "weekStart": "2025-09-01",
   "weekEnd": "2025-09-07",
   "statistics": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommission": 0,
-    "netPnL": 0,
-    "winRate": 0,
-    "winners": 0,
-    "losers": 0,
-    "avgDailyPnL": 0,
-    "bestDay": null,
-    "worstDay": null,
-    "consistency": 0,
-    "tradingDays": 0
+    "totalTrades": 144,
+    "totalPnL": 19.01,
+    "totalCommission": 106.64,
+    "netPnL": -87.62,
+    "winRate": 0.5,
+    "winners": 35,
+    "losers": 35,
+    "avgDailyPnL": 4.75,
+    "bestDay": {
+      "date": "2025-09-03",
+      "pnl": 141.73
+    },
+    "worstDay": {
+      "date": "2025-09-04",
+      "pnl": -195.3
+    },
+    "consistency": 0.5,
+    "tradingDays": 4
   },
   "patterns": {
     "byHour": {},
-    "bySymbol": {},
-    "byAssetCategory": {},
-    "byDayOfWeek": {},
+    "bySymbol": {
+      "HWH": {
+        "count": 7,
+        "pnl": 41.4265,
+        "volume": 2539.5,
+        "commission": 5.0735
+      },
+      "SSKN": {
+        "count": 6,
+        "pnl": -27.552500000000002,
+        "volume": 1861.5,
+        "commission": 4.0525
+      },
+      "UUU": {
+        "count": 2,
+        "pnl": 5.979,
+        "volume": 1180.0,
+        "commission": 2.021
+      },
+      "AIHS": {
+        "count": 10,
+        "pnl": 80.605,
+        "volume": 5873.8,
+        "commission": 6.595
+      },
+      "BAOS": {
+        "count": 20,
+        "pnl": -32.384299999999996,
+        "volume": 6376.200000000001,
+        "commission": 10.3843
+      },
+      "BMNR": {
+        "count": 5,
+        "pnl": -49.27885,
+        "volume": 29642.4,
+        "commission": 4.07728
+      },
+      "BTBD": {
+        "count": 16,
+        "pnl": 180.671,
+        "volume": 11849.5,
+        "commission": 16.829
+      },
+      "BRIA": {
+        "count": 10,
+        "pnl": -8.629805000000001,
+        "volume": 5135.6,
+        "commission": 6.629805
+      },
+      "CIGL": {
+        "count": 48,
+        "pnl": -144.74359999999996,
+        "volume": 19255.71,
+        "commission": 35.293599999999984
+      },
+      "ACRV": {
+        "count": 4,
+        "pnl": -0.942,
+        "volume": 702.9,
+        "commission": 4.042
+      },
+      "CLRO": {
+        "count": 6,
+        "pnl": 73.958,
+        "volume": 2462.0,
+        "commission": 4.042
+      },
+      "HOUR": {
+        "count": 5,
+        "pnl": 4.947,
+        "volume": 2042.5,
+        "commission": 2.553
+      },
+      "IPDN": {
+        "count": 5,
+        "pnl": -105.0425,
+        "volume": 2542.0,
+        "commission": 5.0424999999999995
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 144,
+        "pnl": 19.01294500000004,
+        "volume": 91463.60999999997
+      }
+    },
+    "byDayOfWeek": {
+      "Tuesday": {
+        "count": 15,
+        "pnl": 19.852999999999994
+      },
+      "Wednesday": {
+        "count": 51,
+        "pnl": 179.61284999999998
+      },
+      "Thursday": {
+        "count": 58,
+        "pnl": -153.37340499999993
+      },
+      "Friday": {
+        "count": 20,
+        "pnl": -27.079499999999992
+      }
+    },
     "largestWin": {
-      "pnl": 0,
-      "trade": null
+      "pnl": 71.958,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8137025848",
+        "reportDate": "20250902",
+        "tradeDate": "20250902",
+        "tradeTime": "",
+        "settleDateTarget": "20250903",
+        "transactionType": "ExchTrade",
+        "exchange": "NASDAQ",
+        "quantity": -200.0,
+        "tradePrice": 4.47,
+        "tradeMoney": -894.0,
+        "proceeds": 894.0,
+        "taxes": 0.0,
+        "ibCommission": -1.0376,
+        "ibCommissionCurrency": "USD",
+        "netCash": 892.9624,
+        "closePrice": 4.72,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": -821.0044,
+        "fifoPnlRealized": 71.958,
+        "mtmPnl": -50.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "HWH",
+        "description": "HWH INTERNATIONAL INC",
+        "conid": "763338965",
+        "securityID": "US44852G3092",
+        "securityIDType": "ISIN",
+        "cusip": "44852G309",
+        "isin": "US44852G3092",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "HWH",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 71.958,
+        "commission": 1.0376,
+        "currency": "USD"
+      }
     },
     "largestLoss": {
-      "pnl": 0,
-      "trade": null
+      "pnl": -88.82195,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8145339921",
+        "reportDate": "20250903",
+        "tradeDate": "20250903",
+        "tradeTime": "",
+        "settleDateTarget": "20250904",
+        "transactionType": "ExchTrade",
+        "exchange": "DARK",
+        "quantity": -100.0,
+        "tradePrice": 44.84,
+        "tradeMoney": -4484.0,
+        "proceeds": 4484.0,
+        "taxes": 0.0,
+        "ibCommission": -1.0193,
+        "ibCommissionCurrency": "USD",
+        "netCash": 4482.9807,
+        "closePrice": 44.86,
+        "openCloseIndicator": "C",
+        "notes": "P",
+        "cost": -4571.80265,
+        "fifoPnlRealized": -88.82195,
+        "mtmPnl": -2.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "BMNR",
+        "description": "BITMINE IMMERSION TECHNOLOGI",
+        "conid": "785071865",
+        "securityID": "US09175A2069",
+        "securityIDType": "ISIN",
+        "cusip": "09175A206",
+        "isin": "US09175A2069",
+        "listingExchange": "AMEX",
+        "underlyingConid": "",
+        "underlyingSymbol": "BMNR",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": -88.82195,
+        "commission": 1.0193,
+        "currency": "USD"
+      }
     },
     "mostTraded": {
-      "symbol": "",
-      "count": 0
+      "symbol": "CIGL",
+      "count": 48
     },
-    "tradingDays": [],
-    "totalVolume": 0,
-    "avgTradeSize": 0
+    "tradingDays": [
+      "2025-09-02",
+      "2025-09-03",
+      "2025-09-04",
+      "2025-09-05"
+    ],
+    "totalVolume": 91463.60999999997,
+    "avgTradeSize": 635.1639583333331
   },
   "dailySummaries": [
     {
@@ -53,10 +266,113 @@
       "assetCategories": {},
       "date": "2025-09-01",
       "account": "U*****98"
+    },
+    {
+      "totalTrades": 15,
+      "totalPnL": 19.85,
+      "totalCommission": 11.15,
+      "netPnL": 8.71,
+      "winRate": 0.5714,
+      "winners": 4,
+      "losers": 3,
+      "symbols": [
+        "HWH",
+        "SSKN",
+        "UUU"
+      ],
+      "assetCategories": {
+        "STK": 15
+      },
+      "date": "2025-09-02",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 51,
+      "totalPnL": 179.61,
+      "totalCommission": 37.89,
+      "netPnL": 141.73,
+      "winRate": 0.6667,
+      "winners": 16,
+      "losers": 8,
+      "symbols": [
+        "AIHS",
+        "BAOS",
+        "BMNR",
+        "BTBD"
+      ],
+      "assetCategories": {
+        "STK": 51
+      },
+      "date": "2025-09-03",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 58,
+      "totalPnL": -153.37,
+      "totalCommission": 41.92,
+      "netPnL": -195.3,
+      "winRate": 0.3103,
+      "winners": 9,
+      "losers": 20,
+      "symbols": [
+        "BRIA",
+        "CIGL"
+      ],
+      "assetCategories": {
+        "STK": 58
+      },
+      "date": "2025-09-04",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 20,
+      "totalPnL": -27.08,
+      "totalCommission": 15.68,
+      "netPnL": -42.76,
+      "winRate": 0.6,
+      "winners": 6,
+      "losers": 4,
+      "symbols": [
+        "ACRV",
+        "CLRO",
+        "HOUR",
+        "IPDN"
+      ],
+      "assetCategories": {
+        "STK": 20
+      },
+      "date": "2025-09-05",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-06",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-07",
+      "account": "U*****98"
     }
   ],
   "metadata": {
-    "generatedAt": "2025-09-01T03:28:30.666169",
+    "generatedAt": "2025-09-07T03:16:18.520097",
     "version": "1.0"
   }
 }

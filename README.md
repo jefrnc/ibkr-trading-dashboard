@@ -17,8 +17,8 @@ This is a live example of:
 
 | Period | Trades | P&L | Win Rate |
 |--------|--------|-----|----------|
-| **Week 36 (current)** | 144 | **-$87.62** | 50.0% |
-| Week 35 | 69 | **+$554.26** | 88.6% |
+| **Week 37 (current)** | 0 | $0.00 | 0.0% |
+| Week 36 | 144 | **-$87.62** | 50.0% |
 | **September (current)** | 0 | $0.00 | 0.0% |
 | August | 0 | $0.00 | 0.0% |
 
@@ -26,12 +26,12 @@ This is a live example of:
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 726 | 1057 |
-| **P&L** | **+$2798.41** | **+$4074.48** |
+| **Trades** | 726 | 1052 |
+| **P&L** | **+$2798.41** | **+$4058.25** |
 
-*Based on current performance with 114 days remaining*
+*Based on current performance with 113 days remaining*
 
-*Last updated: 2025-09-07 03:16 UTC*
+*Last updated: 2025-09-08 03:18 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->

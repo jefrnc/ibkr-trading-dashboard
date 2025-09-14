@@ -1,19 +1,19 @@
 {
-  "exportDate": "2025-09-14 03:15:56",
+  "exportDate": "2025-09-14 03:16:51",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 37,
   "weekStart": "2025-09-08",
   "weekEnd": "2025-09-14",
   "statistics": {
-    "totalTrades": 44,
-    "totalPnL": -212.41,
-    "totalCommission": 37.55,
-    "netPnL": -249.96,
-    "winRate": 0.5714,
-    "winners": 8,
-    "losers": 6,
-    "avgDailyPnL": -53.1,
+    "totalTrades": 32,
+    "totalPnL": -160.31,
+    "totalCommission": 30.62,
+    "netPnL": -190.92,
+    "winRate": 0.6364,
+    "winners": 7,
+    "losers": 4,
+    "avgDailyPnL": -40.08,
     "bestDay": {
       "date": "2025-09-09",
       "pnl": 137.56
@@ -64,35 +64,18 @@
         "volume": 547.9,
         "commission": 2.0021500000000003
       },
-      "MOGU": {
-        "count": 4,
-        "pnl": 45.979,
-        "volume": 1016.0,
-        "commission": 2.021
-      },
       "WLDS": {
-        "count": 9,
-        "pnl": -453.07398,
-        "volume": 6641.0,
-        "commission": 5.07398
-      },
-      "OPEN  250919P00009500": {
-        "count": 1,
-        "pnl": 0.0,
-        "volume": 2.54,
-        "commission": 0.8413
+        "count": 2,
+        "pnl": -354.99234,
+        "volume": 1648.18,
+        "commission": 1.0033880000000002
       }
     },
     "byAssetCategory": {
       "STK": {
-        "count": 43,
-        "pnl": -212.40878,
-        "volume": 20426.7
-      },
-      "OPT": {
-        "count": 1,
-        "pnl": 0.0,
-        "volume": 2.54
+        "count": 32,
+        "pnl": -160.30614000000003,
+        "volume": 14417.88
       }
     },
     "byDayOfWeek": {
@@ -105,8 +88,8 @@
         "pnl": 161.13084999999998
       },
       "Thursday": {
-        "count": 13,
-        "pnl": -54.06348
+        "count": 1,
+        "pnl": -1.96084
       },
       "Friday": {
         "count": 1,
@@ -231,8 +214,8 @@
       "2025-09-11",
       "2025-09-12"
     ],
-    "totalVolume": 20429.24,
-    "avgTradeSize": 464.3009090909091
+    "totalVolume": 14417.88,
+    "avgTradeSize": 450.55875
   },
   "dailySummaries": [
     {
@@ -287,21 +270,18 @@
       "account": "U*****98"
     },
     {
-      "totalTrades": 13,
-      "totalPnL": -54.06,
-      "totalCommission": 6.93,
-      "netPnL": -61.0,
-      "winRate": 0.25,
-      "winners": 1,
-      "losers": 3,
+      "totalTrades": 1,
+      "totalPnL": -1.96,
+      "totalCommission": 0.0,
+      "netPnL": -1.96,
+      "winRate": 0.0,
+      "winners": 0,
+      "losers": 1,
       "symbols": [
-        "MOGU",
-        "OPEN  250919P00009500",
         "WLDS"
       ],
       "assetCategories": {
-        "STK": 12,
-        "OPT": 1
+        "STK": 1
       },
       "date": "2025-09-11",
       "account": "U*****98"
@@ -351,7 +331,7 @@
     }
   ],
   "metadata": {
-    "generatedAt": "2025-09-14T03:15:56.214849",
+    "generatedAt": "2025-09-14T03:16:51.469391",
     "version": "1.0"
   }
 }

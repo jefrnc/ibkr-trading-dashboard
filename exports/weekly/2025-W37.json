@@ -1,46 +1,278 @@
 {
-  "exportDate": "2025-09-08 03:19:42",
+  "exportDate": "2025-09-14 03:15:56",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 37,
   "weekStart": "2025-09-08",
   "weekEnd": "2025-09-14",
   "statistics": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommission": 0,
-    "netPnL": 0,
-    "winRate": 0,
-    "winners": 0,
-    "losers": 0,
-    "avgDailyPnL": 0,
-    "bestDay": null,
-    "worstDay": null,
-    "consistency": 0,
-    "tradingDays": 0
+    "totalTrades": 44,
+    "totalPnL": -212.41,
+    "totalCommission": 37.55,
+    "netPnL": -249.96,
+    "winRate": 0.5714,
+    "winners": 8,
+    "losers": 6,
+    "avgDailyPnL": -53.1,
+    "bestDay": {
+      "date": "2025-09-09",
+      "pnl": 137.56
+    },
+    "worstDay": {
+      "date": "2025-09-12",
+      "pnl": -354.03
+    },
+    "consistency": 0.5,
+    "tradingDays": 4
   },
   "patterns": {
     "byHour": {},
-    "bySymbol": {},
-    "byAssetCategory": {},
-    "byDayOfWeek": {},
+    "bySymbol": {
+      "HOUR": {
+        "count": 3,
+        "pnl": 10.779,
+        "volume": 1047.2,
+        "commission": 2.021
+      },
+      "OCTO": {
+        "count": 2,
+        "pnl": 17.59785,
+        "volume": 890.8000000000001,
+        "commission": 2.0021500000000003
+      },
+      "XAIR": {
+        "count": 2,
+        "pnl": 5.1785,
+        "volume": 862.8,
+        "commission": 2.0214999999999996
+      },
+      "BNC": {
+        "count": 1,
+        "pnl": 0.0,
+        "volume": 234.0,
+        "commission": 1.000286
+      },
+      "BON": {
+        "count": 20,
+        "pnl": 156.433,
+        "volume": 9187.0,
+        "commission": 20.567000000000004
+      },
+      "CWD": {
+        "count": 2,
+        "pnl": 4.69785,
+        "volume": 547.9,
+        "commission": 2.0021500000000003
+      },
+      "MOGU": {
+        "count": 4,
+        "pnl": 45.979,
+        "volume": 1016.0,
+        "commission": 2.021
+      },
+      "WLDS": {
+        "count": 9,
+        "pnl": -453.07398,
+        "volume": 6641.0,
+        "commission": 5.07398
+      },
+      "OPEN  250919P00009500": {
+        "count": 1,
+        "pnl": 0.0,
+        "volume": 2.54,
+        "commission": 0.8413
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 43,
+        "pnl": -212.40878,
+        "volume": 20426.7
+      },
+      "OPT": {
+        "count": 1,
+        "pnl": 0.0,
+        "volume": 2.54
+      }
+    },
+    "byDayOfWeek": {
+      "Monday": {
+        "count": 7,
+        "pnl": 33.555350000000004
+      },
+      "Tuesday": {
+        "count": 23,
+        "pnl": 161.13084999999998
+      },
+      "Thursday": {
+        "count": 13,
+        "pnl": -54.06348
+      },
+      "Friday": {
+        "count": 1,
+        "pnl": -353.0315
+      }
+    },
     "largestWin": {
-      "pnl": 0,
-      "trade": null
+      "pnl": 112.4155,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8169132132",
+        "reportDate": "20250909",
+        "tradeDate": "20250909",
+        "tradeTime": "",
+        "settleDateTarget": "20250910",
+        "transactionType": "ExchTrade",
+        "exchange": "NASDAQ",
+        "quantity": -400.0,
+        "tradePrice": 3.13,
+        "tradeMoney": -1252.0,
+        "proceeds": 1252.0,
+        "taxes": 0.0,
+        "ibCommission": -2.0752,
+        "ibCommissionCurrency": "USD",
+        "netCash": 1249.9248,
+        "closePrice": 1.92,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": -1137.5093,
+        "fifoPnlRealized": 112.4155,
+        "mtmPnl": 484.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "BON",
+        "description": "BON NATURAL LIFE LTD-A",
+        "conid": "785072925",
+        "securityID": "KYG144922047",
+        "securityIDType": "ISIN",
+        "cusip": "",
+        "isin": "KYG144922047",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "BON",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 112.4155,
+        "commission": 2.0752,
+        "currency": "USD"
+      }
     },
     "largestLoss": {
-      "pnl": 0,
-      "trade": null
+      "pnl": -353.0315,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8191461097",
+        "reportDate": "20250912",
+        "tradeDate": "20250912",
+        "tradeTime": "",
+        "settleDateTarget": "20250915",
+        "transactionType": "ExchTrade",
+        "exchange": "NASDAQ",
+        "quantity": 150.0,
+        "tradePrice": 10.73,
+        "tradeMoney": 1609.5,
+        "proceeds": -1609.5,
+        "taxes": 0.0,
+        "ibCommission": -1.0033,
+        "ibCommissionCurrency": "USD",
+        "netCash": -1610.5033,
+        "closePrice": 9.42,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": 1257.4718,
+        "fifoPnlRealized": -353.0315,
+        "mtmPnl": -196.5,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "WLDS",
+        "description": "WEARABLE DEVICES LTD",
+        "conid": "768826982",
+        "securityID": "IL0012118043",
+        "securityIDType": "ISIN",
+        "cusip": "",
+        "isin": "IL0012118043",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "WLDS",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": -353.0315,
+        "commission": 1.0033,
+        "currency": "USD"
+      }
     },
     "mostTraded": {
-      "symbol": "",
-      "count": 0
+      "symbol": "BON",
+      "count": 20
     },
-    "tradingDays": [],
-    "totalVolume": 0,
-    "avgTradeSize": 0
+    "tradingDays": [
+      "2025-09-08",
+      "2025-09-09",
+      "2025-09-11",
+      "2025-09-12"
+    ],
+    "totalVolume": 20429.24,
+    "avgTradeSize": 464.3009090909091
   },
   "dailySummaries": [
+    {
+      "totalTrades": 7,
+      "totalPnL": 33.56,
+      "totalCommission": 6.04,
+      "netPnL": 27.51,
+      "winRate": 1.0,
+      "winners": 3,
+      "losers": 0,
+      "symbols": [
+        "HOUR",
+        "OCTO",
+        "XAIR"
+      ],
+      "assetCategories": {
+        "STK": 7
+      },
+      "date": "2025-09-08",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 23,
+      "totalPnL": 161.13,
+      "totalCommission": 23.57,
+      "netPnL": 137.56,
+      "winRate": 0.6667,
+      "winners": 4,
+      "losers": 2,
+      "symbols": [
+        "BNC",
+        "BON",
+        "CWD"
+      ],
+      "assetCategories": {
+        "STK": 23
+      },
+      "date": "2025-09-09",
+      "account": "U*****98"
+    },
     {
       "totalTrades": 0,
       "totalPnL": 0,
@@ -51,12 +283,75 @@
       "losers": 0,
       "symbols": [],
       "assetCategories": {},
-      "date": "2025-09-08",
+      "date": "2025-09-10",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 13,
+      "totalPnL": -54.06,
+      "totalCommission": 6.93,
+      "netPnL": -61.0,
+      "winRate": 0.25,
+      "winners": 1,
+      "losers": 3,
+      "symbols": [
+        "MOGU",
+        "OPEN  250919P00009500",
+        "WLDS"
+      ],
+      "assetCategories": {
+        "STK": 12,
+        "OPT": 1
+      },
+      "date": "2025-09-11",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 1,
+      "totalPnL": -353.03,
+      "totalCommission": 1.0,
+      "netPnL": -354.03,
+      "winRate": 0.0,
+      "winners": 0,
+      "losers": 1,
+      "symbols": [
+        "WLDS"
+      ],
+      "assetCategories": {
+        "STK": 1
+      },
+      "date": "2025-09-12",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-13",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-14",
       "account": "U*****98"
     }
   ],
   "metadata": {
-    "generatedAt": "2025-09-08T03:19:42.984384",
+    "generatedAt": "2025-09-14T03:15:56.214849",
     "version": "1.0"
   }
 }

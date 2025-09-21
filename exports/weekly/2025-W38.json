@@ -1,46 +1,205 @@
 {
-  "exportDate": "2025-09-15 03:19:14",
+  "exportDate": "2025-09-21 03:18:34",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 38,
   "weekStart": "2025-09-15",
   "weekEnd": "2025-09-21",
   "statistics": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommission": 0,
-    "netPnL": 0,
-    "winRate": 0,
-    "winners": 0,
-    "losers": 0,
-    "avgDailyPnL": 0,
-    "bestDay": null,
-    "worstDay": null,
-    "consistency": 0,
-    "tradingDays": 0
+    "totalTrades": 5,
+    "totalPnL": -220.88,
+    "totalCommission": 4.04,
+    "netPnL": -224.93,
+    "winRate": 0.5,
+    "winners": 1,
+    "losers": 1,
+    "avgDailyPnL": -110.44,
+    "bestDay": {
+      "date": "2025-09-15",
+      "pnl": 29.92
+    },
+    "worstDay": {
+      "date": "2025-09-19",
+      "pnl": -254.84
+    },
+    "consistency": 0.5,
+    "tradingDays": 2
   },
   "patterns": {
     "byHour": {},
-    "bySymbol": {},
-    "byAssetCategory": {},
-    "byDayOfWeek": {},
+    "bySymbol": {
+      "NAOV": {
+        "count": 4,
+        "pnl": 33.958,
+        "volume": 4770.0,
+        "commission": 4.042
+      },
+      "OPEN  250919P00009500": {
+        "count": 1,
+        "pnl": -254.8413,
+        "volume": 0.0,
+        "commission": 0.0
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 4,
+        "pnl": 33.958,
+        "volume": 4770.0
+      },
+      "OPT": {
+        "count": 1,
+        "pnl": -254.8413,
+        "volume": 0.0
+      }
+    },
+    "byDayOfWeek": {
+      "Monday": {
+        "count": 4,
+        "pnl": 33.958
+      },
+      "Friday": {
+        "count": 1,
+        "pnl": -254.8413
+      }
+    },
     "largestWin": {
-      "pnl": 0,
-      "trade": null
+      "pnl": 33.958,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8201014525",
+        "reportDate": "20250915",
+        "tradeDate": "20250915",
+        "tradeTime": "",
+        "settleDateTarget": "20250916",
+        "transactionType": "ExchTrade",
+        "exchange": "NASDAQ",
+        "quantity": 200.0,
+        "tradePrice": 11.83,
+        "tradeMoney": 2366.0,
+        "proceeds": -2366.0,
+        "taxes": 0.0,
+        "ibCommission": -1.0044,
+        "ibCommissionCurrency": "USD",
+        "netCash": -2367.0044,
+        "closePrice": 10.7,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": 2400.9624,
+        "fifoPnlRealized": 33.958,
+        "mtmPnl": -226.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "NAOV",
+        "description": "NANOVIBRONIX INC",
+        "conid": "805686498",
+        "securityID": "US63008J8844",
+        "securityIDType": "ISIN",
+        "cusip": "63008J884",
+        "isin": "US63008J8844",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "NAOV",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 33.958,
+        "commission": 1.0044,
+        "currency": "USD"
+      }
     },
     "largestLoss": {
-      "pnl": 0,
-      "trade": null
+      "pnl": -254.8413,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8231841291",
+        "reportDate": "20250919",
+        "tradeDate": "20250919",
+        "tradeTime": "",
+        "settleDateTarget": "20250922",
+        "transactionType": "BookTrade",
+        "exchange": "--",
+        "quantity": -2.0,
+        "tradePrice": 0.0,
+        "tradeMoney": 0.0,
+        "proceeds": 0.0,
+        "taxes": 0.0,
+        "ibCommission": 0.0,
+        "ibCommissionCurrency": "USD",
+        "netCash": 0.0,
+        "closePrice": 0.0,
+        "openCloseIndicator": "C",
+        "notes": "Ep",
+        "cost": -254.8413,
+        "fifoPnlRealized": -254.8413,
+        "mtmPnl": 0.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "OPT",
+        "symbol": "OPEN  250919P00009500",
+        "description": "OPEN 19SEP25 9.5 P",
+        "conid": "809579604",
+        "securityID": "",
+        "securityIDType": "",
+        "cusip": "",
+        "isin": "",
+        "listingExchange": "CBOE",
+        "underlyingConid": "460320153",
+        "underlyingSymbol": "OPEN",
+        "underlyingSecurityID": "US6837121036",
+        "underlyingListingExchange": "NASDAQ",
+        "issuer": "",
+        "multiplier": 100.0,
+        "strike": 9.5,
+        "expiry": "20250919",
+        "putCall": "P",
+        "principalAdjustFactor": 1,
+        "pnl": -254.8413,
+        "commission": 0.0,
+        "currency": "USD"
+      }
     },
     "mostTraded": {
-      "symbol": "",
-      "count": 0
+      "symbol": "NAOV",
+      "count": 4
     },
-    "tradingDays": [],
-    "totalVolume": 0,
-    "avgTradeSize": 0
+    "tradingDays": [
+      "2025-09-15",
+      "2025-09-19"
+    ],
+    "totalVolume": 4770.0,
+    "avgTradeSize": 954.0
   },
   "dailySummaries": [
+    {
+      "totalTrades": 4,
+      "totalPnL": 33.96,
+      "totalCommission": 4.04,
+      "netPnL": 29.92,
+      "winRate": 1.0,
+      "winners": 1,
+      "losers": 0,
+      "symbols": [
+        "NAOV"
+      ],
+      "assetCategories": {
+        "STK": 4
+      },
+      "date": "2025-09-15",
+      "account": "U*****98"
+    },
     {
       "totalTrades": 0,
       "totalPnL": 0,
@@ -51,12 +210,81 @@
       "losers": 0,
       "symbols": [],
       "assetCategories": {},
-      "date": "2025-09-15",
+      "date": "2025-09-16",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-17",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-18",
+      "account": "U****wn"
+    },
+    {
+      "totalTrades": 1,
+      "totalPnL": -254.84,
+      "totalCommission": 0.0,
+      "netPnL": -254.84,
+      "winRate": 0.0,
+      "winners": 0,
+      "losers": 1,
+      "symbols": [
+        "OPEN  250919P00009500"
+      ],
+      "assetCategories": {
+        "OPT": 1
+      },
+      "date": "2025-09-19",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-20",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-21",
       "account": "U*****98"
     }
   ],
   "metadata": {
-    "generatedAt": "2025-09-15T03:19:14.401862",
+    "generatedAt": "2025-09-21T03:18:34.963312",
     "version": "1.0"
   }
 }

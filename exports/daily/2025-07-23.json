@@ -1,8 +1,59 @@
 {
-  "exportDate": "2025-09-25 03:17:03",
+  "exportDate": "2025-09-26 03:15:02",
   "account": "U*****98",
   "date": "2025-07-23",
   "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7955961081",
+      "reportDate": "20250723",
+      "tradeDate": "20250723",
+      "tradeTime": "",
+      "settleDateTarget": "20250724",
+      "transactionType": "ExchTrade",
+      "exchange": "ARCA",
+      "quantity": -20.0,
+      "tradePrice": 40.0,
+      "tradeMoney": -800.0,
+      "proceeds": 800.0,
+      "taxes": 0.0,
+      "ibCommission": -1.00376,
+      "ibCommissionCurrency": "USD",
+      "netCash": 798.99624,
+      "closePrice": 39.5,
+      "openCloseIndicator": "O",
+      "notes": "",
+      "cost": -798.99624,
+      "fifoPnlRealized": 0.0,
+      "mtmPnl": 10.0,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "BMNR",
+      "description": "BITMINE IMMERSION TECHNOLOGI",
+      "conid": "785071865",
+      "securityID": "US09175A2069",
+      "securityIDType": "ISIN",
+      "cusip": "09175A206",
+      "isin": "US09175A2069",
+      "listingExchange": "AMEX",
+      "underlyingConid": "",
+      "underlyingSymbol": "BMNR",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 0.0,
+      "commission": 1.00376,
+      "currency": "USD"
+    },
     {
       "accountId": "U*****98",
       "tradeID": "7954136544",
@@ -1382,14 +1433,15 @@
     }
   ],
   "summary": {
-    "totalTrades": 27,
+    "totalTrades": 28,
     "totalPnL": -19.21,
-    "totalCommission": 8.23,
-    "netPnL": -27.44,
+    "totalCommission": 9.24,
+    "netPnL": -28.45,
     "winRate": 0.3846,
     "winners": 5,
     "losers": 8,
     "symbols": [
+      "BMNR",
       "BYND",
       "CLSD",
       "DNUT",
@@ -1405,7 +1457,7 @@
       "STLA"
     ],
     "assetCategories": {
-      "STK": 27
+      "STK": 28
     }
   }
 }

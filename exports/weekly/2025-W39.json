@@ -1,44 +1,131 @@
 {
-  "exportDate": "2025-09-22 03:19:51",
+  "exportDate": "2025-09-28 03:19:20",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 39,
   "weekStart": "2025-09-22",
   "weekEnd": "2025-09-28",
   "statistics": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommission": 0,
-    "netPnL": 0,
-    "winRate": 0,
-    "winners": 0,
+    "totalTrades": 5,
+    "totalPnL": 114.13,
+    "totalCommission": 5.57,
+    "netPnL": 108.55,
+    "winRate": 1.0,
+    "winners": 2,
     "losers": 0,
-    "avgDailyPnL": 0,
-    "bestDay": null,
-    "worstDay": null,
-    "consistency": 0,
-    "tradingDays": 0
+    "avgDailyPnL": 57.06,
+    "bestDay": {
+      "date": "2025-09-26",
+      "pnl": 110.57
+    },
+    "worstDay": {
+      "date": "2025-09-25",
+      "pnl": -2.02
+    },
+    "consistency": 0.5,
+    "tradingDays": 2
   },
   "patterns": {
     "byHour": {},
-    "bySymbol": {},
-    "byAssetCategory": {},
-    "byDayOfWeek": {},
+    "bySymbol": {
+      "PEPG": {
+        "count": 3,
+        "pnl": 91.179,
+        "volume": 1063.8,
+        "commission": 3.021
+      },
+      "APLT": {
+        "count": 2,
+        "pnl": 22.9475,
+        "volume": 530.5,
+        "commission": 2.5525
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 5,
+        "pnl": 114.12650000000001,
+        "volume": 1594.3
+      }
+    },
+    "byDayOfWeek": {
+      "Thursday": {
+        "count": 2,
+        "pnl": 0.0
+      },
+      "Friday": {
+        "count": 3,
+        "pnl": 114.12650000000001
+      }
+    },
     "largestWin": {
-      "pnl": 0,
-      "trade": null
+      "pnl": 91.179,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8265893094",
+        "reportDate": "20250926",
+        "tradeDate": "20250926",
+        "tradeTime": "",
+        "settleDateTarget": "20250929",
+        "transactionType": "ExchTrade",
+        "exchange": "DARK",
+        "quantity": 100.0,
+        "tradePrice": 4.848,
+        "tradeMoney": 484.8,
+        "proceeds": -484.8,
+        "taxes": 0.0,
+        "ibCommission": -1.0022,
+        "ibCommissionCurrency": "USD",
+        "netCash": -485.8022,
+        "closePrice": 5.07,
+        "openCloseIndicator": "C",
+        "notes": "",
+        "cost": 576.9812,
+        "fifoPnlRealized": 91.179,
+        "mtmPnl": 22.2,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "PEPG",
+        "description": "PEPGEN INC",
+        "conid": "560345118",
+        "securityID": "US7133171055",
+        "securityIDType": "ISIN",
+        "cusip": "713317105",
+        "isin": "US7133171055",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "PEPG",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 91.179,
+        "commission": 1.0022,
+        "currency": "USD"
+      }
     },
     "largestLoss": {
       "pnl": 0,
       "trade": null
     },
     "mostTraded": {
-      "symbol": "",
-      "count": 0
+      "symbol": "PEPG",
+      "count": 3
     },
-    "tradingDays": [],
-    "totalVolume": 0,
-    "avgTradeSize": 0
+    "tradingDays": [
+      "2025-09-25",
+      "2025-09-26"
+    ],
+    "totalVolume": 1594.3,
+    "avgTradeSize": 318.86
   },
   "dailySummaries": [
     {
@@ -53,10 +140,97 @@
       "assetCategories": {},
       "date": "2025-09-22",
       "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-23",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-24",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 2,
+      "totalPnL": 0.0,
+      "totalCommission": 2.02,
+      "netPnL": -2.02,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [
+        "PEPG"
+      ],
+      "assetCategories": {
+        "STK": 2
+      },
+      "date": "2025-09-25",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 3,
+      "totalPnL": 114.13,
+      "totalCommission": 3.55,
+      "netPnL": 110.57,
+      "winRate": 1.0,
+      "winners": 2,
+      "losers": 0,
+      "symbols": [
+        "APLT",
+        "PEPG"
+      ],
+      "assetCategories": {
+        "STK": 3
+      },
+      "date": "2025-09-26",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-27",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-09-28",
+      "account": "U*****98"
     }
   ],
   "metadata": {
-    "generatedAt": "2025-09-22T03:19:51.861842",
+    "generatedAt": "2025-09-28T03:19:20.688743",
     "version": "1.0"
   }
 }

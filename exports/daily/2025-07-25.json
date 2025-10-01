@@ -1,8 +1,59 @@
 {
-  "exportDate": "2025-09-30 03:14:45",
+  "exportDate": "2025-10-01 03:21:14",
   "account": "U*****98",
   "date": "2025-07-25",
   "trades": [
+    {
+      "accountId": "U*****98",
+      "tradeID": "7970345440",
+      "reportDate": "20250725",
+      "tradeDate": "20250725",
+      "tradeTime": "",
+      "settleDateTarget": "20250728",
+      "transactionType": "ExchTrade",
+      "exchange": "ARCA",
+      "quantity": -20.0,
+      "tradePrice": 39.3,
+      "tradeMoney": -786.0,
+      "proceeds": 786.0,
+      "taxes": 0.0,
+      "ibCommission": -1.00376,
+      "ibCommissionCurrency": "USD",
+      "netCash": 784.99624,
+      "closePrice": 39.8,
+      "openCloseIndicator": "O",
+      "notes": "",
+      "cost": -784.99624,
+      "fifoPnlRealized": 0.0,
+      "mtmPnl": -10.0,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "BMNR",
+      "description": "BITMINE IMMERSION TECHNOLOGI",
+      "conid": "785071865",
+      "securityID": "US09175A2069",
+      "securityIDType": "ISIN",
+      "cusip": "09175A206",
+      "isin": "US09175A2069",
+      "listingExchange": "AMEX",
+      "underlyingConid": "",
+      "underlyingSymbol": "BMNR",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 0.0,
+      "commission": 1.00376,
+      "currency": "USD"
+    },
     {
       "accountId": "U*****98",
       "tradeID": "7966422620",
@@ -668,14 +719,15 @@
     }
   ],
   "summary": {
-    "totalTrades": 13,
+    "totalTrades": 14,
     "totalPnL": -17.97,
-    "totalCommission": 4.3,
-    "netPnL": -22.27,
+    "totalCommission": 5.3,
+    "netPnL": -23.27,
     "winRate": 0.1429,
     "winners": 1,
     "losers": 6,
     "symbols": [
+      "BMNR",
       "FFAI",
       "LIMN",
       "NRGV",
@@ -685,7 +737,7 @@
       "ZOOZ"
     ],
     "assetCategories": {
-      "STK": 13
+      "STK": 14
     }
   }
 }

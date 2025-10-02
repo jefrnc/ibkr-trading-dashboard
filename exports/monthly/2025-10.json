@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-01 03:21:14",
+  "exportDate": "2025-10-02 03:12:22",
   "account": "U*****98",
   "year": 2025,
   "month": 10,
@@ -20,7 +20,7 @@
   },
   "analysis": {
     "tradingDays": 0,
-    "totalDays": 1,
+    "totalDays": 2,
     "consistency": 0,
     "bestStreak": 0,
     "currentStreak": 0,
@@ -97,7 +97,7 @@
     }
   ],
   "metadata": {
-    "generatedAt": "2025-10-01T03:21:14.596827",
+    "generatedAt": "2025-10-02T03:12:22.526890",
     "version": "1.0"
   }
 }

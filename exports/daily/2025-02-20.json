@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-02 03:13:29",
+  "exportDate": "2025-10-03 03:12:13",
   "account": "U*****98",
   "date": "2025-02-20",
   "trades": [
@@ -53,21 +53,72 @@
       "pnl": 1.045975,
       "commission": 0.0,
       "currency": "USD"
+    },
+    {
+      "accountId": "U*****98",
+      "tradeID": "7291832227",
+      "reportDate": "20250220",
+      "tradeDate": "20250220",
+      "tradeTime": "",
+      "settleDateTarget": "20250221",
+      "transactionType": "ExchTrade",
+      "exchange": "IEX",
+      "quantity": -99.0,
+      "tradePrice": 10.49,
+      "tradeMoney": -1038.51,
+      "proceeds": 1038.51,
+      "taxes": 0.0,
+      "ibCommission": 0.0,
+      "ibCommissionCurrency": "USD",
+      "netCash": 1038.51,
+      "closePrice": 10.55,
+      "openCloseIndicator": "C",
+      "notes": "P",
+      "cost": -864.775977,
+      "fifoPnlRealized": 173.734023,
+      "mtmPnl": -5.94,
+      "origTradePrice": 0.0,
+      "origTradeDate": "",
+      "origTradeID": "",
+      "origOrderID": "0",
+      "openDateTime": "",
+      "assetCategory": "STK",
+      "symbol": "GT",
+      "description": "GOODYEAR TIRE & RUBBER CO",
+      "conid": "7830",
+      "securityID": "US3825501014",
+      "securityIDType": "ISIN",
+      "cusip": "382550101",
+      "isin": "US3825501014",
+      "listingExchange": "NASDAQ",
+      "underlyingConid": "",
+      "underlyingSymbol": "GT",
+      "underlyingSecurityID": "",
+      "underlyingListingExchange": "",
+      "issuer": "",
+      "multiplier": 1.0,
+      "strike": 0.0,
+      "expiry": "",
+      "putCall": "",
+      "principalAdjustFactor": 1,
+      "pnl": 173.734023,
+      "commission": 0.0,
+      "currency": "USD"
     }
   ],
   "summary": {
-    "totalTrades": 1,
-    "totalPnL": 1.05,
+    "totalTrades": 2,
+    "totalPnL": 174.78,
     "totalCommission": 0.0,
-    "netPnL": 1.05,
+    "netPnL": 174.78,
     "winRate": 1.0,
-    "winners": 1,
+    "winners": 2,
     "losers": 0,
     "symbols": [
       "GT"
     ],
     "assetCategories": {
-      "STK": 1
+      "STK": 2
     }
   }
 }

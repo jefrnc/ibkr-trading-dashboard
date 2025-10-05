@@ -1,46 +1,150 @@
 {
-  "exportDate": "2025-09-29 03:18:06",
+  "exportDate": "2025-10-05 03:17:51",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 40,
   "weekStart": "2025-09-29",
   "weekEnd": "2025-10-05",
   "statistics": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommission": 0,
-    "netPnL": 0,
-    "winRate": 0,
-    "winners": 0,
+    "totalTrades": 9,
+    "totalPnL": 190.37,
+    "totalCommission": 8.05,
+    "netPnL": 182.31,
+    "winRate": 1.0,
+    "winners": 5,
     "losers": 0,
-    "avgDailyPnL": 0,
-    "bestDay": null,
-    "worstDay": null,
-    "consistency": 0,
-    "tradingDays": 0
+    "avgDailyPnL": 95.18,
+    "bestDay": {
+      "date": "2025-09-29",
+      "pnl": 174.62
+    },
+    "worstDay": {
+      "date": "2025-10-03",
+      "pnl": 7.7
+    },
+    "consistency": 1.0,
+    "tradingDays": 2
   },
   "patterns": {
     "byHour": {},
-    "bySymbol": {},
-    "byAssetCategory": {},
-    "byDayOfWeek": {},
+    "bySymbol": {
+      "BQ": {
+        "count": 7,
+        "pnl": 180.66750000000002,
+        "volume": 5488.28,
+        "commission": 6.0525
+      },
+      "TSLA": {
+        "count": 2,
+        "pnl": 9.6979,
+        "volume": 8575.5,
+        "commission": 2.0021000000000004
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 9,
+        "pnl": 190.36540000000002,
+        "volume": 14063.78
+      }
+    },
+    "byDayOfWeek": {
+      "Monday": {
+        "count": 7,
+        "pnl": 180.66750000000002
+      },
+      "Friday": {
+        "count": 2,
+        "pnl": 9.6979
+      }
+    },
     "largestWin": {
-      "pnl": 0,
-      "trade": null
+      "pnl": 103.40541,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8275696647",
+        "reportDate": "20250929",
+        "tradeDate": "20250929",
+        "tradeTime": "",
+        "settleDateTarget": "20250930",
+        "transactionType": "ExchTrade",
+        "exchange": "ARCA",
+        "quantity": 149.0,
+        "tradePrice": 10.37,
+        "tradeMoney": 1545.13,
+        "proceeds": -1545.13,
+        "taxes": 0.0,
+        "ibCommission": -0.896578,
+        "ibCommissionCurrency": "USD",
+        "netCash": -1546.026578,
+        "closePrice": 9.75,
+        "openCloseIndicator": "C",
+        "notes": "P",
+        "cost": 1649.431988,
+        "fifoPnlRealized": 103.40541,
+        "mtmPnl": -92.38,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "BQ",
+        "description": "BOQII HOLDING LTD - CLASS A",
+        "conid": "796609466",
+        "securityID": "KYG1311F1191",
+        "securityIDType": "ISIN",
+        "cusip": "",
+        "isin": "KYG1311F1191",
+        "listingExchange": "AMEX",
+        "underlyingConid": "",
+        "underlyingSymbol": "BQ",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 103.40541,
+        "commission": 0.896578,
+        "currency": "USD"
+      }
     },
     "largestLoss": {
       "pnl": 0,
       "trade": null
     },
     "mostTraded": {
-      "symbol": "",
-      "count": 0
+      "symbol": "BQ",
+      "count": 7
     },
-    "tradingDays": [],
-    "totalVolume": 0,
-    "avgTradeSize": 0
+    "tradingDays": [
+      "2025-09-29",
+      "2025-10-03"
+    ],
+    "totalVolume": 14063.78,
+    "avgTradeSize": 1562.6422222222222
   },
   "dailySummaries": [
+    {
+      "totalTrades": 7,
+      "totalPnL": 180.67,
+      "totalCommission": 6.05,
+      "netPnL": 174.62,
+      "winRate": 1.0,
+      "winners": 4,
+      "losers": 0,
+      "symbols": [
+        "BQ"
+      ],
+      "assetCategories": {
+        "STK": 7
+      },
+      "date": "2025-09-29",
+      "account": "U*****98"
+    },
     {
       "totalTrades": 0,
       "totalPnL": 0,
@@ -51,12 +155,81 @@
       "losers": 0,
       "symbols": [],
       "assetCategories": {},
-      "date": "2025-09-29",
+      "date": "2025-09-30",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-01",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-02",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 2,
+      "totalPnL": 9.7,
+      "totalCommission": 2.0,
+      "netPnL": 7.7,
+      "winRate": 1.0,
+      "winners": 1,
+      "losers": 0,
+      "symbols": [
+        "TSLA"
+      ],
+      "assetCategories": {
+        "STK": 2
+      },
+      "date": "2025-10-03",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-04",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-05",
       "account": "U*****98"
     }
   ],
   "metadata": {
-    "generatedAt": "2025-09-29T03:18:06.198116",
+    "generatedAt": "2025-10-05T03:17:51.835565",
     "version": "1.0"
   }
 }

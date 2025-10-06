@@ -1,0 +1,62 @@
+{
+  "exportDate": "2025-10-06 03:16:32",
+  "account": "U*****98",
+  "year": 2025,
+  "weekNumber": 41,
+  "weekStart": "2025-10-06",
+  "weekEnd": "2025-10-12",
+  "statistics": {
+    "totalTrades": 0,
+    "totalPnL": 0,
+    "totalCommission": 0,
+    "netPnL": 0,
+    "winRate": 0,
+    "winners": 0,
+    "losers": 0,
+    "avgDailyPnL": 0,
+    "bestDay": null,
+    "worstDay": null,
+    "consistency": 0,
+    "tradingDays": 0
+  },
+  "patterns": {
+    "byHour": {},
+    "bySymbol": {},
+    "byAssetCategory": {},
+    "byDayOfWeek": {},
+    "largestWin": {
+      "pnl": 0,
+      "trade": null
+    },
+    "largestLoss": {
+      "pnl": 0,
+      "trade": null
+    },
+    "mostTraded": {
+      "symbol": "",
+      "count": 0
+    },
+    "tradingDays": [],
+    "totalVolume": 0,
+    "avgTradeSize": 0
+  },
+  "dailySummaries": [
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-06",
+      "account": "U*****98"
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2025-10-06T03:16:32.416358",
+    "version": "1.0"
+  }
+}

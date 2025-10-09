@@ -1,59 +1,8 @@
 {
-  "exportDate": "2025-10-09 03:15:04",
+  "exportDate": "2025-10-09 03:16:04",
   "account": "U*****98",
   "date": "2025-02-18",
   "trades": [
-    {
-      "accountId": "U*****98",
-      "tradeID": "7282735255",
-      "reportDate": "20250218",
-      "tradeDate": "20250218",
-      "tradeTime": "",
-      "settleDateTarget": "20250219",
-      "transactionType": "ExchTrade",
-      "exchange": "NYSE",
-      "quantity": 392.0,
-      "tradePrice": 1.91,
-      "tradeMoney": 748.72,
-      "proceeds": -748.72,
-      "taxes": 0.0,
-      "ibCommission": 0.0,
-      "ibCommissionCurrency": "USD",
-      "netCash": -748.72,
-      "closePrice": 1.91,
-      "openCloseIndicator": "O",
-      "notes": "P",
-      "cost": 748.72,
-      "fifoPnlRealized": 0.0,
-      "mtmPnl": 0.0,
-      "origTradePrice": 0.0,
-      "origTradeDate": "",
-      "origTradeID": "",
-      "origOrderID": "0",
-      "openDateTime": "",
-      "assetCategory": "STK",
-      "symbol": "ABEV",
-      "description": "AMBEV SA-ADR",
-      "conid": "137736417",
-      "securityID": "US02319V1035",
-      "securityIDType": "ISIN",
-      "cusip": "02319V103",
-      "isin": "US02319V1035",
-      "listingExchange": "NYSE",
-      "underlyingConid": "",
-      "underlyingSymbol": "ABEV",
-      "underlyingSecurityID": "",
-      "underlyingListingExchange": "",
-      "issuer": "",
-      "multiplier": 1.0,
-      "strike": 0.0,
-      "expiry": "",
-      "putCall": "",
-      "principalAdjustFactor": 1,
-      "pnl": 0.0,
-      "commission": 0.0,
-      "currency": "USD"
-    },
     {
       "accountId": "U*****98",
       "tradeID": "7282864511",
@@ -158,7 +107,7 @@
     }
   ],
   "summary": {
-    "totalTrades": 3,
+    "totalTrades": 2,
     "totalPnL": 0.0,
     "totalCommission": 0.0,
     "netPnL": 0.0,
@@ -169,7 +118,7 @@
       "ABEV"
     ],
     "assetCategories": {
-      "STK": 3
+      "STK": 2
     }
   }
 }

@@ -1,44 +1,181 @@
 {
-  "exportDate": "2025-10-06 03:17:47",
+  "exportDate": "2025-10-12 03:16:24",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 41,
   "weekStart": "2025-10-06",
   "weekEnd": "2025-10-12",
   "statistics": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommission": 0,
-    "netPnL": 0,
-    "winRate": 0,
-    "winners": 0,
-    "losers": 0,
-    "avgDailyPnL": 0,
-    "bestDay": null,
-    "worstDay": null,
-    "consistency": 0,
-    "tradingDays": 0
+    "totalTrades": 13,
+    "totalPnL": -18.0,
+    "totalCommission": 4.04,
+    "netPnL": -22.04,
+    "winRate": 0.2857,
+    "winners": 2,
+    "losers": 5,
+    "avgDailyPnL": -9.0,
+    "bestDay": {
+      "date": "2025-10-09",
+      "pnl": -1.02
+    },
+    "worstDay": {
+      "date": "2025-10-10",
+      "pnl": -21.03
+    },
+    "consistency": 0.0,
+    "tradingDays": 2
   },
   "patterns": {
     "byHour": {},
-    "bySymbol": {},
-    "byAssetCategory": {},
-    "byDayOfWeek": {},
+    "bySymbol": {
+      "YHGJ": {
+        "count": 7,
+        "pnl": -31.980999999999998,
+        "volume": 1639.96,
+        "commission": 2.021
+      },
+      "PMAX": {
+        "count": 6,
+        "pnl": 13.979,
+        "volume": 696.0,
+        "commission": 2.0210000000000004
+      }
+    },
+    "byAssetCategory": {
+      "STK": {
+        "count": 13,
+        "pnl": -18.002000000000002,
+        "volume": 2335.96
+      }
+    },
+    "byDayOfWeek": {
+      "Thursday": {
+        "count": 2,
+        "pnl": 0.0
+      },
+      "Friday": {
+        "count": 11,
+        "pnl": -18.002000000000002
+      }
+    },
     "largestWin": {
-      "pnl": 0,
-      "trade": null
+      "pnl": 9.675761,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8352337000",
+        "reportDate": "20251010",
+        "tradeDate": "20251010",
+        "tradeTime": "",
+        "settleDateTarget": "20251014",
+        "transactionType": "ExchTrade",
+        "exchange": "NASDAQ",
+        "quantity": 61.0,
+        "tradePrice": 3.4,
+        "tradeMoney": 207.4,
+        "proceeds": -207.4,
+        "taxes": 0.0,
+        "ibCommission": -0.001342,
+        "ibCommissionCurrency": "USD",
+        "netCash": -207.401342,
+        "closePrice": 2.59,
+        "openCloseIndicator": "C",
+        "notes": "P",
+        "cost": 217.077103,
+        "fifoPnlRealized": 9.675761,
+        "mtmPnl": -49.41,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "PMAX",
+        "description": "POWELL MAX LTD-CL A",
+        "conid": "819833139",
+        "securityID": "VGG7200G1182",
+        "securityIDType": "ISIN",
+        "cusip": "",
+        "isin": "VGG7200G1182",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "PMAX",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 9.675761,
+        "commission": 0.001342,
+        "currency": "USD"
+      }
     },
     "largestLoss": {
-      "pnl": 0,
-      "trade": null
+      "pnl": -15.339776,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "8341915854",
+        "reportDate": "20251010",
+        "tradeDate": "20251010",
+        "tradeTime": "",
+        "settleDateTarget": "20251014",
+        "transactionType": "ExchTrade",
+        "exchange": "DRCTEDGE",
+        "quantity": 50.0,
+        "tradePrice": 8.33,
+        "tradeMoney": 416.5,
+        "proceeds": -416.5,
+        "taxes": 0.0,
+        "ibCommission": -0.6547,
+        "ibCommissionCurrency": "USD",
+        "netCash": -417.1547,
+        "closePrice": 9.32,
+        "openCloseIndicator": "C",
+        "notes": "P",
+        "cost": 401.814924,
+        "fifoPnlRealized": -15.339776,
+        "mtmPnl": 49.5,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "STK",
+        "symbol": "YHGJ",
+        "description": "YUNHONG GREEN CTI LTD",
+        "conid": "818608065",
+        "securityID": "US98873Q2093",
+        "securityIDType": "ISIN",
+        "cusip": "98873Q209",
+        "isin": "US98873Q2093",
+        "listingExchange": "NASDAQ",
+        "underlyingConid": "",
+        "underlyingSymbol": "YHGJ",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 1.0,
+        "strike": 0.0,
+        "expiry": "",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": -15.339776,
+        "commission": 0.6547,
+        "currency": "USD"
+      }
     },
     "mostTraded": {
-      "symbol": "",
-      "count": 0
+      "symbol": "YHGJ",
+      "count": 7
     },
-    "tradingDays": [],
-    "totalVolume": 0,
-    "avgTradeSize": 0
+    "tradingDays": [
+      "2025-10-09",
+      "2025-10-10"
+    ],
+    "totalVolume": 2335.96,
+    "avgTradeSize": 179.68923076923076
   },
   "dailySummaries": [
     {
@@ -53,10 +190,97 @@
       "assetCategories": {},
       "date": "2025-10-06",
       "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-07",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-08",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 2,
+      "totalPnL": 0.0,
+      "totalCommission": 1.02,
+      "netPnL": -1.02,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [
+        "YHGJ"
+      ],
+      "assetCategories": {
+        "STK": 2
+      },
+      "date": "2025-10-09",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 11,
+      "totalPnL": -18.0,
+      "totalCommission": 3.02,
+      "netPnL": -21.03,
+      "winRate": 0.2857,
+      "winners": 2,
+      "losers": 5,
+      "symbols": [
+        "PMAX",
+        "YHGJ"
+      ],
+      "assetCategories": {
+        "STK": 11
+      },
+      "date": "2025-10-10",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-11",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-12",
+      "account": "U*****98"
     }
   ],
   "metadata": {
-    "generatedAt": "2025-10-06T03:17:47.532110",
+    "generatedAt": "2025-10-12T03:16:24.299668",
     "version": "1.0"
   }
 }

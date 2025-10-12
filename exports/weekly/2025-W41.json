@@ -1,26 +1,26 @@
 {
-  "exportDate": "2025-10-12 03:16:24",
+  "exportDate": "2025-10-12 03:17:24",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 41,
   "weekStart": "2025-10-06",
   "weekEnd": "2025-10-12",
   "statistics": {
-    "totalTrades": 13,
-    "totalPnL": -18.0,
-    "totalCommission": 4.04,
-    "netPnL": -22.04,
-    "winRate": 0.2857,
-    "winners": 2,
-    "losers": 5,
-    "avgDailyPnL": -9.0,
+    "totalTrades": 7,
+    "totalPnL": -4.26,
+    "totalCommission": 1.37,
+    "netPnL": -5.62,
+    "winRate": 0.0,
+    "winners": 0,
+    "losers": 3,
+    "avgDailyPnL": -2.13,
     "bestDay": {
       "date": "2025-10-09",
       "pnl": -1.02
     },
     "worstDay": {
       "date": "2025-10-10",
-      "pnl": -21.03
+      "pnl": -4.61
     },
     "consistency": 0.0,
     "tradingDays": 2
@@ -29,23 +29,23 @@
     "byHour": {},
     "bySymbol": {
       "YHGJ": {
-        "count": 7,
-        "pnl": -31.980999999999998,
-        "volume": 1639.96,
-        "commission": 2.021
+        "count": 5,
+        "pnl": -4.257028,
+        "volume": 905.4000000000001,
+        "commission": 1.3654640000000002
       },
       "PMAX": {
-        "count": 6,
-        "pnl": 13.979,
-        "volume": 696.0,
-        "commission": 2.0210000000000004
+        "count": 2,
+        "pnl": 0.0,
+        "volume": 39.160000000000004,
+        "commission": 0.002068
       }
     },
     "byAssetCategory": {
       "STK": {
-        "count": 13,
-        "pnl": -18.002000000000002,
-        "volume": 2335.96
+        "count": 7,
+        "pnl": -4.257028,
+        "volume": 944.56
       }
     },
     "byDayOfWeek": {
@@ -54,89 +54,39 @@
         "pnl": 0.0
       },
       "Friday": {
-        "count": 11,
-        "pnl": -18.002000000000002
+        "count": 5,
+        "pnl": -4.257028
       }
     },
     "largestWin": {
-      "pnl": 9.675761,
-      "trade": {
-        "accountId": "U*****98",
-        "tradeID": "8352337000",
-        "reportDate": "20251010",
-        "tradeDate": "20251010",
-        "tradeTime": "",
-        "settleDateTarget": "20251014",
-        "transactionType": "ExchTrade",
-        "exchange": "NASDAQ",
-        "quantity": 61.0,
-        "tradePrice": 3.4,
-        "tradeMoney": 207.4,
-        "proceeds": -207.4,
-        "taxes": 0.0,
-        "ibCommission": -0.001342,
-        "ibCommissionCurrency": "USD",
-        "netCash": -207.401342,
-        "closePrice": 2.59,
-        "openCloseIndicator": "C",
-        "notes": "P",
-        "cost": 217.077103,
-        "fifoPnlRealized": 9.675761,
-        "mtmPnl": -49.41,
-        "origTradePrice": 0.0,
-        "origTradeDate": "",
-        "origTradeID": "",
-        "origOrderID": "0",
-        "openDateTime": "",
-        "assetCategory": "STK",
-        "symbol": "PMAX",
-        "description": "POWELL MAX LTD-CL A",
-        "conid": "819833139",
-        "securityID": "VGG7200G1182",
-        "securityIDType": "ISIN",
-        "cusip": "",
-        "isin": "VGG7200G1182",
-        "listingExchange": "NASDAQ",
-        "underlyingConid": "",
-        "underlyingSymbol": "PMAX",
-        "underlyingSecurityID": "",
-        "underlyingListingExchange": "",
-        "issuer": "",
-        "multiplier": 1.0,
-        "strike": 0.0,
-        "expiry": "",
-        "putCall": "",
-        "principalAdjustFactor": 1,
-        "pnl": 9.675761,
-        "commission": 0.001342,
-        "currency": "USD"
-      }
+      "pnl": 0,
+      "trade": null
     },
     "largestLoss": {
-      "pnl": -15.339776,
+      "pnl": -1.641294,
       "trade": {
         "accountId": "U*****98",
-        "tradeID": "8341915854",
+        "tradeID": "8341915852",
         "reportDate": "20251010",
         "tradeDate": "20251010",
         "tradeTime": "",
         "settleDateTarget": "20251014",
         "transactionType": "ExchTrade",
         "exchange": "DRCTEDGE",
-        "quantity": 50.0,
-        "tradePrice": 8.33,
-        "tradeMoney": 416.5,
-        "proceeds": -416.5,
+        "quantity": 4.0,
+        "tradePrice": 8.36,
+        "tradeMoney": 33.44,
+        "proceeds": -33.44,
         "taxes": 0.0,
-        "ibCommission": -0.6547,
+        "ibCommission": -0.346488,
         "ibCommissionCurrency": "USD",
-        "netCash": -417.1547,
+        "netCash": -33.786488,
         "closePrice": 9.32,
         "openCloseIndicator": "C",
         "notes": "P",
-        "cost": 401.814924,
-        "fifoPnlRealized": -15.339776,
-        "mtmPnl": 49.5,
+        "cost": 32.145194,
+        "fifoPnlRealized": -1.641294,
+        "mtmPnl": 3.84,
         "origTradePrice": 0.0,
         "origTradeDate": "",
         "origTradeID": "",
@@ -161,21 +111,21 @@
         "expiry": "",
         "putCall": "",
         "principalAdjustFactor": 1,
-        "pnl": -15.339776,
-        "commission": 0.6547,
+        "pnl": -1.641294,
+        "commission": 0.346488,
         "currency": "USD"
       }
     },
     "mostTraded": {
       "symbol": "YHGJ",
-      "count": 7
+      "count": 5
     },
     "tradingDays": [
       "2025-10-09",
       "2025-10-10"
     ],
-    "totalVolume": 2335.96,
-    "avgTradeSize": 179.68923076923076
+    "totalVolume": 944.56,
+    "avgTradeSize": 134.93714285714285
   },
   "dailySummaries": [
     {
@@ -235,19 +185,19 @@
       "account": "U*****98"
     },
     {
-      "totalTrades": 11,
-      "totalPnL": -18.0,
-      "totalCommission": 3.02,
-      "netPnL": -21.03,
-      "winRate": 0.2857,
-      "winners": 2,
-      "losers": 5,
+      "totalTrades": 5,
+      "totalPnL": -4.26,
+      "totalCommission": 0.35,
+      "netPnL": -4.61,
+      "winRate": 0.0,
+      "winners": 0,
+      "losers": 3,
       "symbols": [
         "PMAX",
         "YHGJ"
       ],
       "assetCategories": {
-        "STK": 11
+        "STK": 5
       },
       "date": "2025-10-10",
       "account": "U*****98"
@@ -280,7 +230,7 @@
     }
   ],
   "metadata": {
-    "generatedAt": "2025-10-12T03:16:24.299668",
+    "generatedAt": "2025-10-12T03:17:24.098103",
     "version": "1.0"
   }
 }

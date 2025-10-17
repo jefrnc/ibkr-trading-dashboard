@@ -26,12 +26,12 @@ This is a live example of:
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 475 | 598 |
-| **P&L** | **-$339.76** | **-$427.93** |
+| **Trades** | 726 | 911 |
+| **P&L** | **+$2798.41** | **+$3512.49** |
 
-*Based on current performance with 75 days remaining*
+*Based on current performance with 74 days remaining*
 
-*Last updated: 2025-10-16 03:18 UTC*
+*Last updated: 2025-10-17 03:16 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -46,30 +46,30 @@ This is a live example of:
 
 | Metric | Value |
 |--------|-------|
-| **Total Trading Days** | 95 |
-| **Total Trades** | 637 |
-| **Total P&L** | $-657.45 |
-| **Win Rate** | 36.8% |
-| **Profit Days** | 35 (36.8%) |
-| **Loss Days** | 50 (52.6%) |
-| **Best Day** | $330.31 (2025-05-12) |
-| **Worst Day** | $-409.28 (2025-08-12) |
-| **Daily Average** | $-6.92 |
+| **Total Trading Days** | 96 |
+| **Total Trades** | 1160 |
+| **Total P&L** | $3031.68 |
+| **Win Rate** | 44.8% |
+| **Profit Days** | 43 (44.8%) |
+| **Loss Days** | 45 (46.9%) |
+| **Best Day** | $1206.20 (2025-05-29) |
+| **Worst Day** | $-561.10 (2025-07-09) |
+| **Daily Average** | $31.58 |
 
 ### 📈 Monthly Breakdown
 
 | Month | Trades | P&L | Win Rate |
 |-------|--------|-----|----------|
-| January | 9 | **-$414.66** | 28.6% |
-| February | 16 | **+$15.08** | 25.0% |
-| March | 4 | **+$52.65** | 25.0% |
-| April | 4 | **-$328.44** | 0.0% |
-| May | 16 | **+$541.51** | 100.0% |
-| June | 74 | **-$262.97** | 50.0% |
-| July | 352 | **+$57.07** | 14.3% |
-| August | 81 | **+$32.49** | 50.0% |
-| September | 72 | **-$352.25** | 38.5% |
-| October | 9 | **+$2.07** | 33.3% |
+| January | 19 | **+$14.93** | 28.6% |
+| February | 33 | **+$755.86** | 37.5% |
+| March | 7 | **-$240.67** | 25.0% |
+| April | 9 | **-$468.68** | 0.0% |
+| May | 38 | **+$3382.63** | 100.0% |
+| June | 87 | **-$69.82** | 60.0% |
+| July | 533 | **-$575.84** | 19.0% |
+| August | 209 | **+$326.85** | 61.1% |
+| September | 205 | **-$279.33** | 53.8% |
+| October | 20 | **+$185.75** | 50.0% |
 
 <!-- CALENDAR_END -->
 

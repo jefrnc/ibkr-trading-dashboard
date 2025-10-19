@@ -1,44 +1,175 @@
 {
-  "exportDate": "2025-10-13 03:20:48",
+  "exportDate": "2025-10-19 03:23:43",
   "account": "U*****98",
   "year": 2025,
   "weekNumber": 42,
   "weekStart": "2025-10-13",
   "weekEnd": "2025-10-19",
   "statistics": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommission": 0,
-    "netPnL": 0,
-    "winRate": 0,
-    "winners": 0,
-    "losers": 0,
-    "avgDailyPnL": 0,
-    "bestDay": null,
-    "worstDay": null,
-    "consistency": 0,
-    "tradingDays": 0
+    "totalTrades": 14,
+    "totalPnL": 180.98,
+    "totalCommission": 28.52,
+    "netPnL": 152.46,
+    "winRate": 0.8571,
+    "winners": 6,
+    "losers": 1,
+    "avgDailyPnL": 90.49,
+    "bestDay": {
+      "date": "2025-10-15",
+      "pnl": 200.1
+    },
+    "worstDay": {
+      "date": "2025-10-16",
+      "pnl": -47.64
+    },
+    "consistency": 0.5,
+    "tradingDays": 2
   },
   "patterns": {
     "byHour": {},
-    "bySymbol": {},
-    "byAssetCategory": {},
-    "byDayOfWeek": {},
+    "bySymbol": {
+      "MYMZ5": {
+        "count": 14,
+        "pnl": 180.98,
+        "volume": 2143799.0,
+        "commission": 28.52
+      }
+    },
+    "byAssetCategory": {
+      "FUT": {
+        "count": 14,
+        "pnl": 180.98,
+        "volume": 2143799.0
+      }
+    },
+    "byDayOfWeek": {
+      "Wednesday": {
+        "count": 5,
+        "pnl": 206.29999999999998
+      },
+      "Thursday": {
+        "count": 9,
+        "pnl": -25.32
+      }
+    },
     "largestWin": {
-      "pnl": 0,
-      "trade": null
+      "pnl": 82.52,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "1150339963",
+        "reportDate": "20251015",
+        "tradeDate": "20251015",
+        "tradeTime": "",
+        "settleDateTarget": "20251016",
+        "transactionType": "ExchTrade",
+        "exchange": "CBOT",
+        "quantity": 2.0,
+        "tradePrice": 46760.0,
+        "tradeMoney": 46760.0,
+        "proceeds": -46760.0,
+        "taxes": 0.0,
+        "ibCommission": -1.24,
+        "ibCommissionCurrency": "USD",
+        "netCash": -269.24,
+        "closePrice": 46492.0,
+        "openCloseIndicator": "C",
+        "notes": "P",
+        "cost": 46843.76,
+        "fifoPnlRealized": 82.52,
+        "mtmPnl": -268.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "FUT",
+        "symbol": "MYMZ5",
+        "description": "MYM 19DEC25",
+        "conid": "750150151",
+        "securityID": "",
+        "securityIDType": "",
+        "cusip": "",
+        "isin": "",
+        "listingExchange": "CBOT",
+        "underlyingConid": "362688015",
+        "underlyingSymbol": "MYM",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 0.5,
+        "strike": 0.0,
+        "expiry": "20251219",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": 82.52,
+        "commission": 1.24,
+        "currency": "USD"
+      }
     },
     "largestLoss": {
-      "pnl": 0,
-      "trade": null
+      "pnl": -99.92,
+      "trade": {
+        "accountId": "U*****98",
+        "tradeID": "1150829524",
+        "reportDate": "20251016",
+        "tradeDate": "20251016",
+        "tradeTime": "",
+        "settleDateTarget": "20251017",
+        "transactionType": "ExchTrade",
+        "exchange": "CBOT",
+        "quantity": -8.0,
+        "tradePrice": 46544.0,
+        "tradeMoney": -186176.0,
+        "proceeds": 186176.0,
+        "taxes": 0.0,
+        "ibCommission": -4.96,
+        "ibCommissionCurrency": "USD",
+        "netCash": 1531.04,
+        "closePrice": 46160.0,
+        "openCloseIndicator": "C",
+        "notes": "P",
+        "cost": -186270.96,
+        "fifoPnlRealized": -99.92,
+        "mtmPnl": 1536.0,
+        "origTradePrice": 0.0,
+        "origTradeDate": "",
+        "origTradeID": "",
+        "origOrderID": "0",
+        "openDateTime": "",
+        "assetCategory": "FUT",
+        "symbol": "MYMZ5",
+        "description": "MYM 19DEC25",
+        "conid": "750150151",
+        "securityID": "",
+        "securityIDType": "",
+        "cusip": "",
+        "isin": "",
+        "listingExchange": "CBOT",
+        "underlyingConid": "362688015",
+        "underlyingSymbol": "MYM",
+        "underlyingSecurityID": "",
+        "underlyingListingExchange": "",
+        "issuer": "",
+        "multiplier": 0.5,
+        "strike": 0.0,
+        "expiry": "20251219",
+        "putCall": "",
+        "principalAdjustFactor": 1,
+        "pnl": -99.92,
+        "commission": 4.96,
+        "currency": "USD"
+      }
     },
     "mostTraded": {
-      "symbol": "",
-      "count": 0
+      "symbol": "MYMZ5",
+      "count": 14
     },
-    "tradingDays": [],
-    "totalVolume": 0,
-    "avgTradeSize": 0
+    "tradingDays": [
+      "2025-10-15",
+      "2025-10-16"
+    ],
+    "totalVolume": 2143799.0,
+    "avgTradeSize": 153128.5
   },
   "dailySummaries": [
     {
@@ -53,10 +184,96 @@
       "assetCategories": {},
       "date": "2025-10-13",
       "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-14",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 5,
+      "totalPnL": 206.3,
+      "totalCommission": 6.2,
+      "netPnL": 200.1,
+      "winRate": 1.0,
+      "winners": 4,
+      "losers": 0,
+      "symbols": [
+        "MYMZ5"
+      ],
+      "assetCategories": {
+        "FUT": 5
+      },
+      "date": "2025-10-15",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 9,
+      "totalPnL": -25.32,
+      "totalCommission": 22.32,
+      "netPnL": -47.64,
+      "winRate": 0.6667,
+      "winners": 2,
+      "losers": 1,
+      "symbols": [
+        "MYMZ5"
+      ],
+      "assetCategories": {
+        "FUT": 9
+      },
+      "date": "2025-10-16",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-17",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-18",
+      "account": "U*****98"
+    },
+    {
+      "totalTrades": 0,
+      "totalPnL": 0,
+      "totalCommission": 0,
+      "netPnL": 0,
+      "winRate": 0,
+      "winners": 0,
+      "losers": 0,
+      "symbols": [],
+      "assetCategories": {},
+      "date": "2025-10-19",
+      "account": "U*****98"
     }
   ],
   "metadata": {
-    "generatedAt": "2025-10-13T03:20:48.390643",
+    "generatedAt": "2025-10-19T03:23:43.274655",
     "version": "1.0"
   }
 }

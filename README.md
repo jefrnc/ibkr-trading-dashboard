@@ -26,12 +26,12 @@ This is a live example of:
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 726 | 895 |
-| **P&L** | **+$2798.41** | **+$3452.95** |
+| **Trades** | 726 | 892 |
+| **P&L** | **+$2798.41** | **+$3441.29** |
 
-*Based on current performance with 69 days remaining*
+*Based on current performance with 68 days remaining*
 
-*Last updated: 2025-10-22 03:22 UTC*
+*Last updated: 2025-10-23 03:17 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -46,15 +46,15 @@ This is a live example of:
 
 | Metric | Value |
 |--------|-------|
-| **Total Trading Days** | 97 |
-| **Total Trades** | 1169 |
-| **Total P&L** | $2984.04 |
-| **Win Rate** | 44.3% |
-| **Profit Days** | 43 (44.3%) |
-| **Loss Days** | 46 (47.4%) |
+| **Total Trading Days** | 98 |
+| **Total Trades** | 1173 |
+| **Total P&L** | $2561.16 |
+| **Win Rate** | 43.9% |
+| **Profit Days** | 43 (43.9%) |
+| **Loss Days** | 47 (48.0%) |
 | **Best Day** | $1206.20 (2025-05-29) |
 | **Worst Day** | $-561.10 (2025-07-09) |
-| **Daily Average** | $30.76 |
+| **Daily Average** | $26.13 |
 
 ### 📈 Monthly Breakdown
 
@@ -69,7 +69,7 @@ This is a live example of:
 | July | 533 | **-$575.84** | 19.0% |
 | August | 209 | **+$326.85** | 61.1% |
 | September | 205 | **-$279.33** | 53.8% |
-| October | 29 | **+$138.11** | 40.0% |
+| October | 33 | **-$284.77** | 33.3% |
 
 <!-- CALENDAR_END -->
 

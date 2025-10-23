@@ -316,9 +316,9 @@
 <rect x="665" y="95" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-18: $0.00 (0 trades)</title></rect>
 <rect x="665" y="110" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-19: $0.00 (0 trades)</title></rect>
 <rect x="680" y="20" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-20: $0.00 (0 trades)</title></rect>
-<rect x="680" y="35" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-21: $0.00 (0 trades)</title></rect>
+<rect x="680" y="35" width="12" height="12" class="cell cell-loss" rx="2" ry="2"><title>2025-10-21: $-422.88 (4 trades)</title></rect>
 <rect x="680" y="50" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-22: $0.00 (0 trades)</title></rect>
-<rect x="680" y="65" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-23: No data</title></rect>
+<rect x="680" y="65" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-23: $0.00 (0 trades)</title></rect>
 <rect x="680" y="80" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-24: No data</title></rect>
 <rect x="680" y="95" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-25: No data</title></rect>
 <rect x="680" y="110" width="12" height="12" class="cell cell-empty" rx="2" ry="2"><title>2025-10-26: No data</title></rect>
